@@ -40,9 +40,7 @@
 
 ## 教程 <a id="tutorial"></a>
 
-* [如何安装固件](tutorial/how-to-install-the-firmware.md)
 * [如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)
-* [如何安装软件包](tutorial/how-to-install-custom-packages.md)
 
 ## 截图
 
