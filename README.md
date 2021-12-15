@@ -45,7 +45,7 @@
 ## 截图
 
 K2P：
-![luci\_admin\_status\_overview](https://i.loli.net/2021/03/18/CXhbSEY2qG1gT4B.png)
+![luci\_admin\_status\_overview](.gitbook/assets/K2P-OP.png)
 AX6：
 ![luci\_admin\_status\_overview](.gitbook/assets/AX6-OP.png)
 
