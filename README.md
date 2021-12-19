@@ -1,6 +1,6 @@
 简体中文 | [English](./README.en-US.md)
 
-# 关于这个固件
+# 关于这个仓库
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
@@ -8,11 +8,10 @@
 
 ## 特性
 
-* SSRPlus(K2P Only)
+* PassWall(K2P Only)
 * OpenClash(AX6 Only)
-* 广告过滤插件
 * Turbo ACC
-* Argon主题
+* 更多功能自行刷入查看...
 
 ## 针对AX6的用法
 
