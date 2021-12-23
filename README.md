@@ -13,7 +13,7 @@
 * Turbo ACC
 * 更多功能自行刷入查看...
 
-## 针对AX6的用法
+## 针对AX6的说明
 
 1. 上传自己的AX6.config文件
 2. 进入Actions页面手动启动编译
@@ -23,7 +23,7 @@
 6. 刷入固件(ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi)PS：文件名只是个例子，刷入时以你下载的ubi文件名为准
 7. 输入nvram set flag_last_success=0和nvram set flag_boot_rootfs=0 然后重启设备，完成
 
-## 针对K2P的用法
+## 针对K2P的说明
 
 1. 上传自己的K2P.config文件
 2. 进入Actions页面手动启动编译
