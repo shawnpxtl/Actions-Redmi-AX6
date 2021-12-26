@@ -20,24 +20,20 @@ reboot
 ## 1. 解锁ssh
 
 ### 1.1 不保留配置降级小米AX6固件至1.0.18
-
 进入路由后台，然后找到系统状态，点击手动升级，找到固件，不保存降级即可
 
 ### 1.2 准备另一台已刷openwrt的路由器B
-
 打开winscp，文件协议选择scp，登录到路由器B，并把wireless.sh文件上传到root目录下，然后打开Putty，ssh登录，输入以下命令：
 ```bash
 sh /root/wireless.sh
 ```
 
 ### 1.3 解锁AX6 ssh
-
 用网线连接AX6路由器，获取AX6后台STOK且登陆小米路由器后台后，复制浏览器地址栏 stok= 后面的一段内容，准备好备用。<br>
 
-第一次请求：将stok替换为刚刚复制的，并填写路由器B的无线ssid和密码，命令：`http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/extendwifi_connect?ssid=路由器B的无线名称(最好是2.4G)&password=路由器B的无线密码` 出现code=0，代表成功<br>
+第一次请求：将stok替换为刚刚复制的，并填写路由器B的无线ssid和密码，命令：`http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/extendwifi_connect?ssid=路由器B的无线名称(最好是2.4G)&password=路由器B的无线密码` 出现code=0，即为成功<br>
 
 第二次请求：只替换stok既可，其他不需要改，命令：`http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/xqsystem/oneclick_get_remote_token?username=xxx&password=xxx&nonce=xxx`显示code 0，即为成功
-
 
 ## 2. 刷入QSDK固件
 
@@ -86,7 +82,6 @@ reboot
 等待系统重启后，进入openwrt固件，在网页端不保留配置刷入openwrt-5.10.70-redmi_ax6-squashfs-nand-sysupgrade.bin，刷机结束
 
 ## OpenWrt和QSDK互相切换命令
-
 OpenWrt切换QSDK：
 ```bash
 fw_setenv flag_last_success 1
@@ -100,6 +95,7 @@ fw_setenv flag_last_success 0
 fw_setenv flag_boot_rootfs 0
 reboot
 ```
+
 ## 后台进入方式和密码
 
    | 项目 | 值 |
@@ -119,7 +115,5 @@ reboot
 友情提示：QSDK有一些小问题，进入后台时，选择“高级——继续前往"即可
 
 ## 参考
-
-https://qust.me/post/hong-mi-ax6-jie-suo-ssh-an-zhuang-shi-yong-shellclash-jiao-cheng/（ax6解锁ssh）
-
+https://qust.me/post/hong-mi-ax6-jie-suo-ssh-an-zhuang-shi-yong-shellclash-jiao-cheng/（ax6解锁ssh）<br>
 https://www.right.com.cn/forum/thread-4111331-1-1.html（ax6扩容刷QSDK）
