@@ -1,8 +1,7 @@
 > 原帖：https://www.right.com.cn/forum/thread-6054985-1-1.html 此处仅做镜像
 
-说明：按照我之前不扩容教程刷机的小伙伴，可以直接用小米救砖工具恢复小米原厂系统，再进行以下操作<br>
-
 # 一些提示：
+说明：按照我之前不扩容教程刷机的小伙伴，可以直接用小米救砖工具恢复小米原厂系统，再进行以下操作<br>
 已扩容并刷入OpenWrt，且在12分区刷过xiaomimtd12.bin的小伙伴，可以先刷以下命令
 fw_setenv flag_last_success 0
 fw_setenv flag_boot_rootfs 0
