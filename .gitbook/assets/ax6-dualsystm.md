@@ -1,22 +1,23 @@
 > 原帖：https://www.right.com.cn/forum/thread-6054985-1-1.html 此处仅做镜像
 
-说明：按照我之前不扩容教程刷机的小伙伴，可以直接用小米救砖工具恢复小米原厂系统，再进行以下操作
+说明：按照我之前不扩容教程刷机的小伙伴，可以直接用小米救砖工具恢复小米原厂系统，再进行以下操作<br>
 
+# 一些提示：
 已扩容并刷入OpenWrt，且在12分区刷过xiaomimtd12.bin的小伙伴，可以先刷以下命令
 fw_setenv flag_last_success 0
 fw_setenv flag_boot_rootfs 0
 reboot
-然后从2.4开始继续刷
+然后从[2.4](#2.4)开始继续刷
 
 # 准备工具：
 软件：Winscp、Putty、AX6 1.0.18固件、openwrt固件、QSDK固件<br>
-硬件：Redmi AX6、另外一个已经刷了OpenWRT的路由器(PS:软路由能使用你的无线网卡并且发送信号理论上也可以)<br>
+硬件：Redmi AX6、另外一个已经刷了OpenWRT的任意路由器(PS:软路由能使用你的无线网卡并且发送信号理论上也可以)<br>
 链接：https://pan.baidu.com/s/1qmfOPbM_XpW62SqU0V77AQ<br>
 提取码：jtow
 
 > OpenWrt固件为lean源码编译（后期可自行升级，固件最好在29MB以下），QSDK固件为志平大佬2021.10.07版本
 
-# 刷机：
+# 正式刷机：
 ## 1. 解锁ssh
 
 ### 1.1 不保留配置降级小米AX6固件至1.0.18
@@ -32,15 +33,14 @@ sh /root/wireless.sh
 
 ### 1.3 解锁AX6 ssh
 
-用网线连接AX6路由器，获取AX6后台STOK且登陆小米路由器后台后，复制浏览器地址栏 stok= 后面的一段内容，准备好备用。
+用网线连接AX6路由器，获取AX6后台STOK且登陆小米路由器后台后，复制浏览器地址栏 stok= 后面的一段内容，准备好备用。<br>
 第一次请求：将stok替换为刚刚复制的，并填写路由器B的无线ssid和密码，命令：
 ```bash
 http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/extendwifi_connect?ssid=路由器B的无线名称(最好是2.4G)&password=路由器B的无线密码
 ```
 出现code=0，代表成功
 
-第二次请求：
-只替换stok既可，其他不需要改
+第二次请求：只替换stok既可，其他不需要改
 ```bash
 http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/xqsystem/oneclick_get_remote_token?username=xxx&password=xxx&nonce=xxx
 ```
@@ -50,9 +50,7 @@ http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/xqsystem/oneclick_get_remote_t
 ## 2. 刷入QSDK固件
 
 ### 2.1 用putty登录AX6
-用户名：root，密码：AX6的无线密码（此时密码已改变，需要进后台查看）
-
-逐一拷贝以下命令：
+用户名：root，密码：AX6的无线密码（此时密码已改变，需要进后台查看），登录ssh后逐一拷贝以下命令：
 ```bash
 nvram set flag_last_success=0
 nvram set flag_boot_rootfs=0
