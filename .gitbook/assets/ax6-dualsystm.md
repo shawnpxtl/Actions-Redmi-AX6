@@ -64,11 +64,7 @@ nvram commit
 ```
 
 ### 2.2 写入QSDK过度固件
-用winscp把固件xiaomimtd12.bin传到路由器tmp目录，ssh命令打以下：
-```bash
-mtd write /tmp/xiaomimtd12.bin rootfs
-```
-命令执行完成后，拨电源重新启动路由器
+用winscp把固件xiaomimtd12.bin传到路由器tmp目录，ssh命令打以下：`mtd write /tmp/xiaomimtd12.bin rootfs` 命令执行完成后，拨电源重新启动路由器
 
 ### 2.3 扩容分区
 QSDK后台地址：`192.168.1.1`，用户名：`root`，无密码，用winscp把固件a6minbib.bin传到路由器tmp目录，ssh 打以下命令刷分区表
