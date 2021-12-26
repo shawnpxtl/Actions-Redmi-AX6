@@ -27,7 +27,7 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 3. When the compilation is complete, in the upper right corner of the Actions page, click the Artifacts button or the WeTransfer link in Annotations to download the compressed package containing the compiled firmware
 4. Enter breed and select ⚠️Phicomm layout⚠️ to brush into the file containing the word `sysupgrade` in the compressed package 
 
-## Default IP access and password
+## Default IP address and password
    | project | value |
    | :--- | :--- |
    | Default IP address | `192.168.2.1` |
