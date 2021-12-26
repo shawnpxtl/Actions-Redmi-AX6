@@ -18,7 +18,7 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 4. If you have previously flashed dual systems to AX6, please enter `nvram set flag_last_success=1` and `nvram set flag_boot_rootfs=1` and then restart the device to switch the system (if not, please click the [reference link(Please solve the translation problem yourself)](https://www.right.com.cn/forum/thread-6054985-1-1.html) to install the dual system)
 5. Upload the firmware with the suffix of .ubi via scp
 6. Flashing in the firmware `ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi` PS: The file name is just an example. When flashing in, the ubi file name you downloaded will prevail
-7. Enter nvram set `flag_last_success=0` and nvram set `flag_boot_rootfs=0` and then restart the device
+7. Enter `nvram set flag_last_success=0` and `nvram set flag_boot_rootfs=0` and then restart the device
 
 ## Usage(K2P)
 
