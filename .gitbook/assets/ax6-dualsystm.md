@@ -23,10 +23,7 @@ reboot
 进入路由后台，然后找到系统状态，点击手动升级，找到固件，不保存降级即可
 
 ### 1.2 准备另一台已刷openwrt的路由器B
-打开winscp，文件协议选择scp，登录到路由器B，并把wireless.sh文件上传到root目录下，然后打开Putty，ssh登录，输入以下命令：
-```bash
-sh /root/wireless.sh
-```
+打开winscp，文件协议选择scp，登录到路由器B，并把wireless.sh文件上传到root目录下，然后打开Putty，ssh登录，输入以下命令：`sh /root/wireless.sh`
 
 ### 1.3 解锁AX6 ssh
 用网线连接AX6路由器，获取AX6后台STOK且登陆小米路由器后台后，复制浏览器地址栏 stok= 后面的一段内容，准备好备用。<br>
