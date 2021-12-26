@@ -18,10 +18,10 @@
 1. 上传自己的`AX6.config`文件
 2. 进入Actions页面手动启动编译
 3. 当编译完成后，在Releases页面下载含编译出的xxx-factory.ubi固件(如果要在op下升级则是下载xxx-sysupgrade.bin后缀的固件)
-4. 如果你此前给AX6刷入了双系统，请输入`nvram set flag_last_success=1`和`nvram set flag_boot_rootfs=1`然后重启设备切换系统（没有的话请点击[参考链接](https://www.right.com.cn/forum/thread-6054985-1-1.html) [GitHub镜像](.gitbook/assets/ax6-dualsystm.md)安装双系统）
+4. 如果你此前给AX6刷入了双系统，请输入`fw_setenv flag_last_success=1`和`fw_setenv flag_boot_rootfs=1`然后重启设备切换系统（没有的话请点击[参考链接](https://www.right.com.cn/forum/thread-6054985-1-1.html) [GitHub镜像](.gitbook/assets/ax6-dualsystm.md)安装双系统）
 5. 通过scp上传后缀为.ubi的固件
 6. 刷入固件`ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi`PS：文件名只是个例子，刷入时以你下载的ubi文件名为准
-7. 输入`nvram set flag_last_success=0`和`nvram set flag_boot_rootfs=0`然后重启设备，完成
+7. 输入`fw_setenv flag_last_success=0`和`fw_setenv flag_boot_rootfs=0`然后重启设备，完成
 
 ## 针对K2P的说明
 
@@ -56,9 +56,9 @@ K2P目前问题：
 ![K30U\_Issues](https://i.loli.net/2021/03/18/TsXa75gWvLr3wOI.jpg)
 
 AX6目前问题：
-* As of the editing of this article, since the memory leak problem of ax6's openwrt is still unresolved, my personal suggestion is to restart every once in a while and add the following commands through the system-startup item-local startup script (note: to exit Before 0):
+* 截止到本文编辑完毕，由于ax6的openwrt的内存泄露问题依然没解决，所以我的个人建议是每隔一段时间重启，通过系统——启动项——本地启动脚本补充以下命令（注意：要在exit 0之前）：
    ```bash
    echo "0 4 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
    echo "0 16 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
    ```
-   Then restart the router once. It will restart at 4 am and 16 pm every day. If you can understand the principle of crontab, you can also customize the restart time.
+   然后重启一次路由器 这样就会在每天凌晨4点和下午16点重启，如果能看懂crontab的原理的话也可以自定义重启时间
