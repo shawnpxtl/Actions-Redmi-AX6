@@ -9,11 +9,9 @@ reboot
 然后从2.4开始继续刷
 
 # 准备工具：
-软件：Winscp、Putty、AX6 1.0.18固件、openwrt固件、QSDK固件
-
-硬件：Redmi AX6、另外一个已经刷了OpenWRT的路由器(PS:软路由能使用你的无线网卡并且发送信号理论上也可以)
-
-链接：https://pan.baidu.com/s/1qmfOPbM_XpW62SqU0V77AQ
+软件：Winscp、Putty、AX6 1.0.18固件、openwrt固件、QSDK固件<br>
+硬件：Redmi AX6、另外一个已经刷了OpenWRT的路由器(PS:软路由能使用你的无线网卡并且发送信号理论上也可以)<br>
+链接：https://pan.baidu.com/s/1qmfOPbM_XpW62SqU0V77AQ<br>
 提取码：jtow
 
 > OpenWrt固件为lean源码编译（后期可自行升级，固件最好在29MB以下），QSDK固件为志平大佬2021.10.07版本
