@@ -98,14 +98,14 @@ reboot
 
 ## OpenWrt和QSDK互相切换命令
 
-### OpenWrt切换QSDK
+OpenWrt切换QSDK：
 ```bash
 fw_setenv flag_last_success 1
 fw_setenv flag_boot_rootfs 1
 reboot
 ```
 
-### QSDK切换OpenWrt
+QSDK切换OpenWrt：
 ```bash
 fw_setenv flag_last_success 0
 fw_setenv flag_boot_rootfs 0
