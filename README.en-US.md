@@ -12,7 +12,7 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 
 ## Usage(AX6)
 
-1. Upload your own AX6.config file
+1. Upload your own `AX6.config` file
 2. Enter the Actions page to manually start the compilation
 3. When the compilation is complete, download the compiled xxx-factory.ubi firmware on the Releases page (if you want to upgrade under op, download the firmware with the suffix xxx-sysupgrade.bin)
 4. If you have previously flashed dual systems to AX6, please enter `nvram set flag_last_success=1` and `nvram set flag_boot_rootfs=1` and then restart the device to switch the system (if not, please click the [reference link(Please solve the translation problem yourself)](https://www.right.com.cn/forum/thread-6054985-1-1.html) to install the dual system)
@@ -22,7 +22,7 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 
 ## Usage(K2P)
 
-1. Upload your own `.config` file 
+1. Upload your own `K2P.config` file 
 2. Enter the Actions page to manually start the compilation
 3. When the compilation is complete, in the upper right corner of the Actions page, click the Artifacts button or the WeTransfer link in Annotations to download the compressed package containing the compiled firmware
 4. Enter breed and select ⚠️Phicomm layout⚠️ to brush into the file containing the word `sysupgrade` in the compressed package 
