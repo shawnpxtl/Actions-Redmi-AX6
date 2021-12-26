@@ -7,7 +7,7 @@
 fw_setenv flag_last_success 0
 fw_setenv flag_boot_rootfs 0
 reboot
-然后从[2.4](#2.4)开始继续刷
+然后从[2.4](#2.4 刷入QSDK固件)开始继续刷
 
 # 准备工具：
 软件：Winscp、Putty、AX6 1.0.18固件、openwrt固件、QSDK固件<br>
