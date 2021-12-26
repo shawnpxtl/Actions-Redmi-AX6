@@ -28,9 +28,9 @@ reboot
 ### 1.3 解锁AX6 ssh
 用网线连接AX6路由器，获取AX6后台STOK且登陆小米路由器后台后，复制浏览器地址栏 stok= 后面的一段内容，准备好备用。<br>
 
-第一次请求：将stok替换为刚刚复制的，并填写路由器B的无线ssid和密码，命令：`http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/extendwifi_connect?ssid=路由器B的无线名称(最好是2.4G)&password=路由器B的无线密码` 出现code=0，即为成功<br>
+第一次请求：将stok替换为刚刚复制的，并填写路由器B的无线ssid和密码，地址：`http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/extendwifi_connect?ssid=路由器B的无线名称(最好是2.4G)&password=路由器B的无线密码` 出现code=0，即为成功<br>
 
-第二次请求：只替换stok既可，其他不需要改，命令：`http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/xqsystem/oneclick_get_remote_token?username=xxx&password=xxx&nonce=xxx`显示code 0，即为成功
+第二次请求：只替换stok既可，其他不需要改，地址：`http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/xqsystem/oneclick_get_remote_token?username=xxx&password=xxx&nonce=xxx`显示code 0，即为成功
 
 ## 2. 刷入QSDK固件
 
