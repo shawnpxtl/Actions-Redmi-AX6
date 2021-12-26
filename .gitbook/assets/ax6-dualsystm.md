@@ -9,7 +9,8 @@ reboot
 然后从2.4开始继续刷
 
 # 准备工具：
-Winscp、Putty、AX6 1.0.18固件、openwrt固件、QSDK固件
+软件：Winscp、Putty、AX6 1.0.18固件、openwrt固件、QSDK固件
+硬件：Redmi AX6、另外一个已经刷了OpenWRT的路由器(PS:软路由能使用你的无线网卡并且发送信号理论上也可以)
 链接：https://pan.baidu.com/s/1qmfOPbM_XpW62SqU0V77AQ
 提取码：jtow
 
