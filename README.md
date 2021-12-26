@@ -56,9 +56,9 @@ K2P目前问题：
 ![K30U\_Issues](https://i.loli.net/2021/03/18/TsXa75gWvLr3wOI.jpg)
 
 AX6目前问题：
-* 截止到本文编辑完毕，由于ax6的openwrt的内存泄露问题依然没解决，所以我的个人建议是每隔一段时间重启，通过系统——启动项——本地启动脚本补充以下命令（注意：要在exit 0之前）：
+* As of the editing of this article, since the memory leak problem of ax6's openwrt is still unresolved, my personal suggestion is to restart every once in a while and add the following commands through the system-startup item-local startup script (note: to exit Before 0):
    ```bash
    echo "0 4 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
    echo "0 16 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
    ```
-   然后重启一次路由器 这样就会在每天凌晨4点和下午16点重启，如果能看懂crontab的原理的话也可以自定义重启时间
+   Then restart the router once. It will restart at 4 am and 16 pm every day. If you can understand the principle of crontab, you can also customize the restart time.
