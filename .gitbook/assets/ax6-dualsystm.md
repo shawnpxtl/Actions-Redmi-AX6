@@ -15,26 +15,22 @@ Winscp、Putty、AX6 1.0.18固件、openwrt固件、QSDK固件
 
 > OpenWrt固件为lean源码编译（后期可自行升级，固件最好在29MB以下），QSDK固件为志平大佬2021.10.07版本
 
-### 刷机：
+# 刷机：
 ## 1. 解锁ssh
 
-# 1.1 不保留配置降级小米AX6固件至1.0.18
+### 1.1 不保留配置降级小米AX6固件至1.0.18
 
-# 1.2 准备另一台已刷openwrt的路由器B
+### 1.2 准备另一台已刷openwrt的路由器B
 
 打开winscp，文件协议选择scp，登录到路由器B，并把wireless.sh文件上传到root目录下，然后打开Putty，ssh登录，输入以下命令：
 ```bash
 sh /root/wireless.sh
 ```
 
-# 1.3 解锁AX6 ssh
+### 1.3 解锁AX6 ssh
 
-用网线连接AX6路由器
-获取AX6后台 STOK
-登陆小米路由器后台后，浏览器地址栏 stok= 后面的一段内容，准备好备用。
-
-第一次请求：
-将stok替换为刚刚复制的，并填写路由器B的无线ssid和密码
+用网线连接AX6路由器，获取AX6后台STOK且登陆小米路由器后台后，复制浏览器地址栏 stok= 后面的一段内容，准备好备用。
+第一次请求：将stok替换为刚刚复制的，并填写路由器B的无线ssid和密码，命令：
 ```bash
 http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/misystem/extendwifi_connect?ssid=路由器B的无线名称(最好是2.4G)&password=路由器B的无线密码
 ```
@@ -50,7 +46,7 @@ http://192.168.31.1/cgi-bin/luci/;stok=<STOK>/api/xqsystem/oneclick_get_remote_t
 
 ## 2. 刷入QSDK固件
 
-# 2.1 用putty登录AX6
+### 2.1 用putty登录AX6
 用户名：root，密码：AX6的无线密码（此时密码已改变，需要进后台查看）
 
 逐一拷贝以下命令：
@@ -67,14 +63,14 @@ nvram set ssh_en=1
 nvram commit
 ```
 
-# 2.2 写入QSDK过度固件
+### 2.2 写入QSDK过度固件
 用winscp把固件xiaomimtd12.bin传到路由器tmp目录，ssh命令打以下：
 ```bash
 mtd write /tmp/xiaomimtd12.bin rootfs
 ```
 命令执行完成后，拨电源重新启动路由器
 
-# 2.3 扩容分区
+### 2.3 扩容分区
 QSDK后台地址：`192.168.1.1`，用户名：`root`，无密码，用winscp把固件a6minbib.bin传到路由器tmp目录，ssh 打以下命令刷分区表
 ```bash
 . /lib/upgrade/platform.sh
@@ -82,7 +78,7 @@ switch_layout boot; do_flash_failsafe_partition a6minbib "0:MIBIB"
 ```
 命令执行完成后，拔电源重启路由器
 
-# 2.4 刷入QSDK固件
+### 2.4 刷入QSDK固件
 用putty和winscp重新登录192.168.1.1，然后用scp把固件openwrt-ipq-ipq807x_64-xiaomi_ax6-squashfs-nand-factory.bin传到路由器tmp目录，ssh打以下命令
 ```bash
 ubiformat /dev/mtd13 -y -f /tmp/openwrt-ipq-ipq807x_64-xiaomi_ax6-squashfs-nand-factory.bin
@@ -102,14 +98,14 @@ reboot
 
 ## OpenWrt和QSDK互相切换命令
 
-# OpenWrt切换QSDK
+### OpenWrt切换QSDK
 ```bash
 fw_setenv flag_last_success 1
 fw_setenv flag_boot_rootfs 1
 reboot
 ```
 
-# QSDK切换OpenWrt
+### QSDK切换OpenWrt
 ```bash
 fw_setenv flag_last_success 0
 fw_setenv flag_boot_rootfs 0
