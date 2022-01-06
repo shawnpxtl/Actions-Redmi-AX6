@@ -2,10 +2,12 @@
 
 # 一些提示：
 说明：按照我之前不扩容教程刷机的小伙伴，可以直接用小米救砖工具恢复小米原厂系统，再进行以下操作<br>
-已扩容并刷入OpenWrt，且在12分区刷过xiaomimtd12.bin的小伙伴，可以先刷以下命令
+已扩容并刷入OpenWrt，且在12分区刷过xiaomimtd12.bin的小伙伴，可以先打以下命令
+```bash
 fw_setenv flag_last_success 0
 fw_setenv flag_boot_rootfs 0
 reboot
+```
 然后从[2.4](#24-刷入qsdk固件)开始继续刷
 
 # 准备工具：
