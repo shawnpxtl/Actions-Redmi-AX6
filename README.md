@@ -15,7 +15,7 @@
 * Turbo ACC
 * 更多功能自行刷入查看...
 
-## 针对AX6的说明(LEDE\OpenWRT分支通用，但注意这两个分支的固件**不能通刷**)
+## 针对AX6的说明(LEDE\OpenWRT分支通用，但注意这两个分支的固件不能通刷)
 
 1. 上传自己的`AX6.config\AX6-LEDE.config`文件(看你要编译哪个分支)
 2. 进入Actions页面手动启动编译
@@ -67,4 +67,12 @@ K2P：
 * (LEDE分支)Redmi K30 Ultra等MTK天玑1000+设备(不知道其它天玑设备有没有被波及)可能只有433Mbps(至少本人手机是这样)，目前尚未查明原因，如果知道原因，欢迎提issue。
 
 ![K30U\_Issues](https://i.loli.net/2021/03/18/TsXa75gWvLr3wOI.jpg)
+
+## 感谢
+
+* [Boos4721](https://github.com/Boos4721)
+* [coolsnowwolf](https://github.com/coolsnowwolf)
+* [P3TERX](https://github.com/P3TERX)
+* smith97(恩山)
+* 以及所有跟OpenWRT/LEDE相关的贡献者
 
