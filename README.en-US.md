@@ -61,10 +61,14 @@ K2P：
 
 ![K30U\_Issues](https://i.loli.net/2021/03/18/TsXa75gWvLr3wOI.jpg)
 
-## Thanks
+## Credits
 
+* [Microsoft Azure](https://azure.microsoft.com/)
+* [GitHub Actions](https://github.com/features/actions)
+* [OpenWRT](https://github.com/openwrt/openwrt)
+* [tmate](https://github.com/tmate-io/tmate)
 * [Boos4721](https://github.com/Boos4721)
-* [coolsnowwolf](https://github.com/coolsnowwolf)
+* [Lean's OpenWrt](https://github.com/coolsnowwolf)
 * [P3TERX](https://github.com/P3TERX)
 * smith97(Right Wireless Forum)
 * and all OpenWRT/LEDE related contributors
