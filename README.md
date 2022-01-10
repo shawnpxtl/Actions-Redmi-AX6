@@ -3,6 +3,8 @@
 # 关于这个仓库
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
+> OpenWRT分支来自https://github.com/Boos4721/openwrt
+> LEDE分支来自https://github.com/coolsnowwolf/lede
 
 用Github Actions为K2P和AX6自动编译固件
 
@@ -22,7 +24,6 @@
 5. 通过scp上传后缀为.ubi的固件
 6. 刷入固件`ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi`PS：文件名只是个例子，刷入时以你下载的ubi文件名为准
 7. 输入`fw_setenv flag_last_success=0`和`fw_setenv flag_boot_rootfs=0`然后重启设备，完成
-> OpenWRT分支来自https://github.com/Boos4721/openwrt
 
 ## 针对K2P的说明
 
