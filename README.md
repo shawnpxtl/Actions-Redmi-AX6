@@ -22,6 +22,7 @@
 5. 通过scp上传后缀为.ubi的固件
 6. 刷入固件`ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi`PS：文件名只是个例子，刷入时以你下载的ubi文件名为准
 7. 输入`fw_setenv flag_last_success=0`和`fw_setenv flag_boot_rootfs=0`然后重启设备，完成
+* OpenWRT分支来自https://github.com/Boos4721/openwrt
 
 ## 针对K2P的说明
 
