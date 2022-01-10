@@ -15,7 +15,7 @@
 * Turbo ACC
 * 更多功能自行刷入查看...
 
-## 针对AX6的说明(LEDE\OpenWRT分支通用，但注意这两个分支的固件⚠️不能通刷⚠️)
+## 针对AX6的说明(LEDE\OpenWRT分支通用，但注意这两个分支的固件**不能通刷**)
 
 1. 上传自己的`AX6.config\AX6-LEDE.config`文件(看你要编译哪个分支)
 2. 进入Actions页面手动启动编译
