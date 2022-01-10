@@ -1,4 +1,4 @@
-> 原帖：https://www.right.com.cn/forum/thread-6054985-1-1.html 此处仅做镜像
+> 原帖：https://www.right.com.cn/forum/thread-6054985-1-1.html 此处仅做镜像，感谢smith97的帖子
 
 # 一些提示：
 说明：按照我之前不扩容教程刷机的小伙伴，可以直接用小米救砖工具恢复小米原厂系统，再进行以下操作<br>
