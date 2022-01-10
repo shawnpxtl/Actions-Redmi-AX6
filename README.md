@@ -70,9 +70,12 @@ K2P：
 
 ## 感谢
 
+* [Microsoft Azure](https://azure.microsoft.com/)
+* [GitHub Actions](https://github.com/features/actions)
+* [OpenWRT](https://github.com/openwrt/openwrt)
+* [tmate](https://github.com/tmate-io/tmate)
 * [Boos4721](https://github.com/Boos4721)
-* [coolsnowwolf](https://github.com/coolsnowwolf)
+* [Lean's OpenWrt](https://github.com/coolsnowwolf)
 * [P3TERX](https://github.com/P3TERX)
 * smith97(恩山)
 * 以及所有跟OpenWRT/LEDE相关的贡献者
-
