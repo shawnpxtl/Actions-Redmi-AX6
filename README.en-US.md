@@ -61,7 +61,7 @@ K2P：
 
 ![K30U\_Issues](https://i.loli.net/2021/03/18/TsXa75gWvLr3wOI.jpg)
 
-## 感谢
+## Thacks
 
 * [Boos4721](https://github.com/Boos4721)
 * [coolsnowwolf](https://github.com/coolsnowwolf)
