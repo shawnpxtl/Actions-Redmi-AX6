@@ -13,9 +13,9 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 * Turbo ACC
 * Ad filter
 
-## Usage(AX6)
+## Usage(AX6)(The LEDE\OpenWRT branch is common, but note that the firmware of these two branches cannot be flashed)
 
-1. Upload your own `AX6.config\AX6-LEDE.config` file (The LEDE\OpenWRT branch is common, but note that the firmware of these two branches cannot be flashed)
+1. Upload your own `AX6.config\AX6-LEDE.config` file (depending on which branch you want to be on)
 2. Enter the Actions page to manually start the compilation
 3. When the compilation is complete, download the compiled `xxx-factory.ubi` firmware on the Releases page (if you want to upgrade under op, download the firmware with the suffix `xxx-sysupgrade.bin`)
 4. If you have previously flashed dual systems to AX6, please enter `fw_setenv flag_last_success=1` and `fw_setenv flag_boot_rootfs=1` and then restart the device to switch the system (if not, please click the [reference link(Please solve the translation problem yourself)](https://www.right.com.cn/forum/thread-6054985-1-1.html) to install the dual system)
