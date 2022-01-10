@@ -50,13 +50,13 @@ AX6：
 ![luci\_admin\_status\_overview](.gitbook/assets/AX6-OP.png)
 
 
-## 注意
-K2P已知问题：
+## 已知问题
+K2P：
 * (LEDE分支)Redmi K30 Ultra等MTK天玑1000+设备(不知道其它天玑设备有没有被波及)可能只有433Mbps(至少本人手机是这样)，目前尚未查明原因，如果知道原因，欢迎提issue。
 
 ![K30U\_Issues](https://i.loli.net/2021/03/18/TsXa75gWvLr3wOI.jpg)
 
-AX6已知问题：
+AX6：
 * (LEDE分支)截止到本文编辑完毕，由于ax6的LEDE分支内存泄露问题依然没解决，所以我的个人建议是每隔一段时间重启，通过系统——启动项——本地启动脚本补充以下命令（注意：要在exit 0之前）：
    ```bash
    echo "0 4 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
