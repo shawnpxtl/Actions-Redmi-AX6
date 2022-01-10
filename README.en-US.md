@@ -70,5 +70,5 @@ K2P：
 * [Boos4721](https://github.com/Boos4721)
 * [Lean's OpenWrt](https://github.com/coolsnowwolf)
 * [P3TERX](https://github.com/P3TERX)
-* smith97(Right Wireless Forum)
+* [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
 * and all OpenWRT/LEDE related contributors
