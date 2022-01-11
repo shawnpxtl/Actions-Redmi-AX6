@@ -19,7 +19,7 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 * More functions by themselves (may be refreshed from time to time to check)...
 
 ## Instructions for AX6 (LEDE\OpenWRT branch flashing method is common)
-#### Warning：LEDE firmware cannot be upgraded directly under the OpenWRT branch, it must be flashed using the following method, and vice versa!
+#### Warning：Do not directly upgrade the LEDE firmware under the OpenWRT branch, you must use the following method to flash it, and vice versa, otherwise I will not be responsible for any problems that occur. you point the finger at me for messing up your device, I will laugh at you.
 
 1. Upload your own `AX6.config\AX6-LEDE.config` file (depending on which branch you want to be on)
 2. Enter the Actions page to manually start the compilation
