@@ -18,7 +18,8 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 * DDNS
 * More functions by themselves (may be refreshed from time to time to check)...
 
-## Usage(AX6)(The LEDE\OpenWRT branch is common, but note that the firmware of these two branches cannot be flashed)
+## Instructions for AX6 (LEDE\OpenWRT branch flashing method is common)
+#### Warning：LEDE firmware cannot be upgraded directly under the OpenWRT branch, it must be flashed using the following method, and vice versa!
 
 1. Upload your own `AX6.config\AX6-LEDE.config` file (depending on which branch you want to be on)
 2. Enter the Actions page to manually start the compilation
@@ -28,7 +29,7 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 6. Flashing in the firmware `ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi` PS: The file name is just an example. When flashing in, the ubi file name you downloaded will prevail
 7. Enter `fw_setenv flag_last_success=0` and `fw_setenv flag_boot_rootfs=0` and then restart the device
 
-## Usage(K2P)
+## Instructions for K2P
 
 1. Upload your own `K2P.config` file 
 2. Enter the Actions page to manually start the compilation
