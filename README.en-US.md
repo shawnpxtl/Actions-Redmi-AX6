@@ -6,7 +6,7 @@
 
 Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 
-## Feature
+## Features
 
 * OpenClash(AX6 Only)
 * Passwall(K2P Only)
