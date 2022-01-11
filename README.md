@@ -45,9 +45,10 @@
    | 默认后台地址 | `192.168.2.1` |
    | 默认后台密码 | `password` |
 
-## 教程 <a id="tutorial"></a>
+## 教程以及额外说明 <a id="tutorial"></a>
 
 * [如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)
+* [AX6的LEDE和OpenWRT分支目前区别](tutorial/ax6-op-lede-difference.md)
 
 ## 截图
 
