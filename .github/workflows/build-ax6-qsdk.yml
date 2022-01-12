@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Leo357449107/qsdk_cmiot-ax6
-  REPO_BRANCH: master
+  REPO_BRANCH: qsdk_12.0.5.R2_k5.4
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: AX6.config
   DIY_P1_SH: diy-part1.sh
