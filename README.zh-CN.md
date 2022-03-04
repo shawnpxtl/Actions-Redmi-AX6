@@ -4,6 +4,7 @@
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
 > LEDE分支来自[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)<br>
+> OpenWRT分支来自[Boos4721/openwrt](https://github.com/Boos4721/openwrt)<br>
 
 用Github Actions为K2P和AX6自动编译固件
 
