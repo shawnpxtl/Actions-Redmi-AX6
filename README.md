@@ -1,3 +1,5 @@
+[简体中文](./README.zh-CN.md) | English
+
 # About this repository
 
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
