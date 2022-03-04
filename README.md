@@ -4,7 +4,7 @@
 
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
 > LEDE branch from [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)<br>
-> OpenWRT branch from [coolsnowwolf/lede](https://github.com/Boos4721/openwrt)<br>
+> OpenWRT branch from [Boos4721/openwrt](https://github.com/Boos4721/openwrt)<br>
 
 Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 
