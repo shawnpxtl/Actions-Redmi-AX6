@@ -54,14 +54,14 @@ AX6：
 #### Disclaimer: The following known issues are all personal measurements, and there may be unknown issues. I am not responsible for any issues caused by the firmware
 
 AX6：
-* (LEDE branch)As of the editing of this article, since the memory leak problem of ax6's openwrt is still unresolved, my personal suggestion is to restart every once in a while and add the following commands through the system-startup item-local startup script (note: to exit Before 0):
+* As of the editing of this article, since the memory leak problem of ax6's openwrt is still unresolved, my personal suggestion is to restart every once in a while and add the following commands through the system-startup item-local startup script (note: to exit Before 0):
    ```bash
    echo "0 4 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
    echo "0 16 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
    ```
    Then restart the router once. It will restart at 4 am and 16 pm every day. If you can understand the principle of crontab, you can also customize the restart time.
 
-* (OpenWRT branch)The restart problem is alleviated, but there will be occasional outages.
+* (update)The restart problem is alleviated, but there will be occasional outages.
 
 K2P：
 * (LEDE branch)Redmi K30 Ultra and other MTK Dimensity 1000+ devices (I don’t know if other Dimensity devices are affected) may only have 433Mbps (at least my mobile phone is like this). The reason has not been found yet. If you know the reason, please submit an issue. 
