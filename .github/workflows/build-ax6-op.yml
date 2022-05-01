@@ -13,6 +13,8 @@ name: Build AX6 OpenWRT
 on:
   repository_dispatch:
   workflow_dispatch:
+#  schedule:
+#    - cron: 0 8 */5 * *
 
 env:
   REPO_URL: https://github.com/robimarko/openwrt
