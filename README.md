@@ -12,10 +12,8 @@ Use Github Actions Automatically compile firmware for Phicomm K2P and Redmi AX6
 
 * OpenClash(AX6 Only)
 * Passwall(K2P Only)
-* Turbo ACC
 * UnblockMusic
 * Wake-On-LAN
-* ZeroTier
 * DDNS
 * More functions by themselves (may be refreshed from time to time to check)...
 
