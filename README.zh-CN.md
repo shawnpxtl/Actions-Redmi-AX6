@@ -3,10 +3,9 @@
 # 关于这个仓库
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
-> LEDE分支来自[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)<br>
 > OpenWRT分支来自[robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)<br>
 
-用Github Actions为K2P和AX6自动编译固件
+用Github Actions为AX6自动编译固件
 
 ## 一些心里话
 
@@ -20,8 +19,7 @@
 
 ## 特性
 
-* PassWall(K2P Only)
-* OpenClash(AX6 Only，因为K2P那16M存储塞不下)
+* OpenClash
 * 网易云解锁
 * 网络唤醒
 * DDNS
@@ -37,13 +35,6 @@
 6. 刷入固件`ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi`PS：文件名只是个例子，刷入时以你下载的ubi文件名为准
 7. 输入`fw_setenv flag_last_success=0`和`fw_setenv flag_boot_rootfs=0`然后重启设备，完成
 
-## 针对K2P的说明
-
-1. 上传自己的`K2P.config`文件
-2. 进入Actions页面手动启动编译
-3. 当编译完成后，在Releases页面下载含编译出的`xxx-sysupgrade.bin`固件
-4. 进入breed，选择⚠️斐讯布局⚠️刷入压缩包中含sysupgrade字样的文件
-
 ## 后台进入方式和密码
 
    | 项目 | 值 |
@@ -57,11 +48,7 @@
 
 ## 截图
 
-K2P：
-![luci\_admin\_status\_overview](.gitbook/assets/K2P-OP.png)
-AX6：
 ![luci\_admin\_status\_overview](.gitbook/assets/AX6-OP.png)
-
 
 ## 已知问题
 #### 免责声明：以下已知问题均为个人实测，可能还有未知问题，本人不对因固件导致的任何问题承担担任何责任
@@ -75,19 +62,13 @@ AX6：
    
 * (更新)重启问题有缓解，但是会有偶现断流问题
 
-K2P：
-* (LEDE分支)Redmi K30 Ultra等MTK天玑1000+设备(不知道其它天玑设备有没有被波及)可能只有433Mbps(至少本人手机是这样)，目前尚未查明原因，如果知道原因，欢迎提issue。
-
-![K30U\_Issues](https://i.loli.net/2021/03/18/TsXa75gWvLr3wOI.jpg)
-
 ## 感谢
 
 * [Microsoft Azure](https://azure.microsoft.com/)
 * [GitHub Actions](https://github.com/features/actions)
 * [OpenWRT](https://github.com/openwrt/openwrt)
 * [tmate](https://github.com/tmate-io/tmate)
-* [Boos4721](https://github.com/Boos4721)
-* [Lean's OpenWrt](https://github.com/coolsnowwolf)
 * [P3TERX](https://github.com/P3TERX)
 * [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
+* [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)<br>
 * 以及所有跟OpenWRT/LEDE相关的贡献者
