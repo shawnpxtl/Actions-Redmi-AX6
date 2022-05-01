@@ -22,10 +22,8 @@
 
 * PassWall(K2P Only)
 * OpenClash(AX6 Only，因为K2P那16M存储塞不下)
-* Turbo ACC
 * 网易云解锁
 * 网络唤醒
-* ZeroTier
 * DDNS
 * 更多功能自行刷入查看(可能会不定期变动)...
 
