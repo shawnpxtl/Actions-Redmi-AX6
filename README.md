@@ -33,7 +33,6 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 
 ## Screenshot
 
-AX6：
 ![luci\_admin\_status\_overview](.gitbook/assets/AX6-OP.png)
 
 ## Issues
