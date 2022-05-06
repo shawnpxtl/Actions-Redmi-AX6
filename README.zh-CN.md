@@ -1,5 +1,7 @@
 简体中文 | [English](./README.md)
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/chrisblue/OpenWrt-Multi?style=for-the-badge&label=下载)](https://github.com/chrisblue/OpenWrt-Multi/releases/latest)
+
 # 关于这个仓库
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
