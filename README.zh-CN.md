@@ -37,6 +37,12 @@
 6. 刷入固件`ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi`PS：文件名只是个例子，刷入时以你下载的ubi文件名为准
 7. 输入`fw_setenv flag_last_success=0`和`fw_setenv flag_boot_rootfs=0`然后重启设备，完成
 
+## 针对AX6的说明（刷了uboot后）
+
+1. 请先刷入uboot [天翼网盘（访问码：m8gj）](https://cloud.189.cn/web/share?code=zqUn63Mba6bm) [Google Drive](https://drive.google.com/file/d/1CZc9mtj85lIiCMEmoo37eOgOS8HdN_L_/view?usp=sharing)
+2. 刷入后请插入电源并同时使用卡针或任何物件按住AX6路由器Reset孔5秒直至红灯亮起进入uboot
+3. 上传.ubi后缀的固件，等待自动重启，完成
+
 ## 后台进入方式和密码
 
    | 项目 | 值 |
