@@ -1,6 +1,7 @@
 [简体中文](./README.zh-CN.md) | English
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/chrisblue/OpenWrt-Multi?style=for-the-badge&label=Download)](https://github.com/chrisblue/OpenWrt-Multi/releases/latest)
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/chrisblue/OpenWrt-Multi/Build?logo=github&style=for-the-badge"></div>
 
 # About this repository
 
