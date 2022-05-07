@@ -30,7 +30,7 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 
 ## Instructions（with uboot）
 
-1. Please flash uboot first [天翼网盘（访问码：m8gj）](https://cloud.189.cn/web/share?code=zqUn63Mba6bm) [Google Drive(压缩包密码：RA69)](https://drive.google.com/file/d/1SZQGYyAMVGZPV-3sos-3-w_89ivQNySw/view?usp=sharing)
+1. Please flash uboot first [189 Drive（password：62fv）](https://cloud.189.cn/web/share?code=qu6VZzUBRZJb) [Google Drive(compressed file password：RA69)](https://drive.google.com/file/d/1cuJoNP-8yTMXOVPIBPK1KmOOsvPcJbFU/view?usp=sharing)
 2. After flashing, please plug in the power supply and use the card pin or any object to hold down the reset hole of the AX6 router for 5 seconds until the red light turns on, modify the ip to 192.168.1.10 and the gateway to 192.168.1.1 to enter uboot
 3. Upload the firmware with the .ubi suffix, wait for the automatic restart, and complete
 
