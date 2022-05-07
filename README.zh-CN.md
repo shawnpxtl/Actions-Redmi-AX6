@@ -28,7 +28,7 @@
 
 ## 针对AX6的说明（刷了uboot之后）
 
-1. 请先刷入uboot [天翼网盘（访问码：m8gj）](https://cloud.189.cn/web/share?code=zqUn63Mba6bm) [Google Drive](https://drive.google.com/file/d/1CZc9mtj85lIiCMEmoo37eOgOS8HdN_L_/view?usp=sharing)
+1. 请先刷入uboot [天翼网盘（访问码：m8gj）](https://cloud.189.cn/web/share?code=zqUn63Mba6bm) [Google Drive(压缩包密码：RA69)](https://drive.google.com/file/d/1SZQGYyAMVGZPV-3sos-3-w_89ivQNySw/view?usp=sharing)
 2. 刷入后请插入电源并同时使用卡针或任何物件按住AX6路由器Reset孔5秒直至红灯亮起进入uboot
 3. 上传.ubi后缀的固件，等待自动重启，完成
 
