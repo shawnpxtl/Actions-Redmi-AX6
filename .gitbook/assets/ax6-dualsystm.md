@@ -106,5 +106,5 @@ reboot
 友情提示：QSDK有一些小问题，进入后台时，选择“高级——继续前往"即可
 
 ## 参考
-https://qust.me/post/hong-mi-ax6-jie-suo-ssh-an-zhuang-shi-yong-shellclash-jiao-cheng/（ax6解锁ssh）<br>
-https://www.right.com.cn/forum/thread-4111331-1-1.html（ax6扩容刷QSDK）
+[ax6解锁ssh https://qust.me/post/hong-mi-ax6-jie-suo-ssh-an-zhuang-shi-yong-shellclash-jiao-cheng/](https://qust.me/post/hong-mi-ax6-jie-suo-ssh-an-zhuang-shi-yong-shellclash-jiao-cheng)<br>
+[ax6扩容刷QSDK https://www.right.com.cn/forum/thread-4111331-1-1.html](https://www.right.com.cn/forum/thread-4111331-1-1.html)
