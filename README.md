@@ -40,14 +40,14 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 ## Issues
 #### Disclaimer: The following known issues are all personal measurements, and there may be unknown issues. I am not responsible for any issues caused by the firmware
 
-* As of the editing of this article, since the memory leak problem of ax6's openwrt is still unresolved, my personal suggestion is to restart every once in a while and add the following commands through the system-startup item-local startup script (note: to exit Before 0):
+~~* As of the editing of this article, since the memory leak problem of ax6's openwrt is still unresolved, my personal suggestion is to restart every once in a while and add the following commands through the system-startup item-local startup script (note: to exit Before 0):~~
    ```bash
    echo "0 4 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
    echo "0 16 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
    ```
-   Then restart the router once. It will restart at 4 am and 16 pm every day. If you can understand the principle of crontab, you can also customize the restart time.
+   ~~Then restart the router once. It will restart at 4 am and 16 pm every day. If you can understand the principle of crontab, you can also customize the restart time.~~
 
-* (update)The restart problem is alleviated, but there will be occasional outages.
+* (update)The problem of luci stuck due to memory seems to be fixed (I haven't seen luci crash for several days after booting), but due to at least 5.15 kernel, it can't open 160Mhz.
 
 ## Credits
 
