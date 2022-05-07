@@ -28,6 +28,12 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 6. Flashing in the firmware `ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi` PS: The file name is just an example. When flashing in, the ubi file name you downloaded will prevail
 7. Enter `fw_setenv flag_last_success=0` and `fw_setenv flag_boot_rootfs=0` and then restart the device
 
+## Instructions（with uboot）
+
+1. Please flash uboot first [天翼网盘（访问码：m8gj）](https://cloud.189.cn/web/share?code=zqUn63Mba6bm) [Google Drive(压缩包密码：RA69)](https://drive.google.com/file/d/1SZQGYyAMVGZPV-3sos-3-w_89ivQNySw/view?usp=sharing)
+2. After flashing, please plug in the power supply and use the card pin or any object to hold down the reset hole of the AX6 router for 5 seconds until the red light turns on, modify the ip to 192.168.1.10 and the gateway to 192.168.1.1 to enter uboot
+3. Upload the firmware with the .ubi suffix, wait for the automatic restart, and complete
+
 ## Default IP address and password
    | project | value |
    | :--- | :--- |
