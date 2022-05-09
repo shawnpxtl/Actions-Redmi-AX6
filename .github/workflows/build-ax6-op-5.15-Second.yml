@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build AX6 OpenWRT (K5.10)
+name: Build AX6 OpenWRT (K5.15-Second)
 
 on:
   repository_dispatch:
@@ -149,7 +149,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "::set-output name=release_tag::$(date +"AX6-OP-K5.10-.%Y.%m.%d-%H%M")"
+        echo "::set-output name=release_tag::$(date +"AX6-OP-K5.15-Second-.%Y.%m.%d-%H%M")"
         touch release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
