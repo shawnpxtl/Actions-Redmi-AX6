@@ -14,7 +14,7 @@
 
    | 参数 | 值 |
    | :--- | :--- |
-   | CPU | [Qulacomm Pro 600 Series IPQ8071A](https://www.qualcomm.com/products/application/networking/qualcomm-networking-pro-600-platform) |
+   | CPU | [Qualcomm Pro 600 Series IPQ8071A](https://www.qualcomm.com/products/application/networking/qualcomm-networking-pro-600-platform) |
    | CPU频率 | 4xA53 1.4GHz |
    | 闪存 | 128MB |
    | 内存 | 512MB |
