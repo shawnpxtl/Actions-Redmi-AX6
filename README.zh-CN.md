@@ -10,7 +10,7 @@
 
 ## Redmi AX6 参数
 
-![luci\_admin\_status\_overview](.gitbook/assets/redmi-ax6.png)
+![luci\_admin\_status\_overview](.gitbook/assets/redmi-ax6.jpg)
 
    | 参数 | 值 |
    | :--- | :--- |
