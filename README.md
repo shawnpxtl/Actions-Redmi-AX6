@@ -24,7 +24,7 @@ Use Github Actions Automatically compile firmware for Redmi AX6
    | Standards | 802.11ax (WIFI 6) |
    | Network Port | 10/100/1000Mbps x4 |
 
-#### 注意：部分参数可能只有官方固件能用的到
+#### Note: Some parameters may only be used by the official
 
 
 ## Features
