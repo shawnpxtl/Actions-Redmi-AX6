@@ -10,6 +10,23 @@
 
 Use Github Actions Automatically compile firmware for Redmi AX6
 
+## Redmi AX6 Specification
+
+![luci\_admin\_status\_overview](.gitbook/assets/redmi-ax6.jpg)
+
+   | Specification | value |
+   | :--- | :--- |
+   | CPU | [Qualcomm Pro 600 Series IPQ8071A](https://www.qualcomm.com/products/application/networking/qualcomm-networking-pro-600-platform) |
+   | CPU Frequency | 4xA53 1.4GHz |
+   | ROM | 128MB |
+   | RAM | 512MB |
+   | Peak Speed | 3000Mbps (5GHz:2402Mbps,2.4GHz:572Mbps) |
+   | Standards | 802.11ax (WIFI 6) |
+   | Network Port | 10/100/1000Mbps x4 |
+
+#### 注意：部分参数可能只有官方固件能用的到
+
+
 ## Features
 
 * OpenClash
