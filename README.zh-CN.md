@@ -26,7 +26,7 @@
 
 ## 特性
 
-* OpenClash
+* [OpenClash](https://github.com/vernesong/OpenClash)
 * 网易云解锁
 * 网络唤醒
 * DDNS
