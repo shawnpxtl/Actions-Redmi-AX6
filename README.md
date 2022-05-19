@@ -29,7 +29,7 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 
 ## Features
 
-* OpenClash
+* [OpenClash](https://github.com/vernesong/OpenClash)
 * UnblockMusic
 * Wake-On-LAN
 * DDNS
