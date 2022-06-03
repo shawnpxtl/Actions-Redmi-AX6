@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build AX6 OpenWRT (K5.15)
+name: Build AX6 OpenWRT (K5.15-Second)
 
 on:
   repository_dispatch:
