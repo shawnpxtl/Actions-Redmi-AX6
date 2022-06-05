@@ -81,7 +81,7 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
         ./scripts/feeds update -a
-        ./scripts/feeds install -a
+        ./scripts/feeds install -a -f
 
     - name: Download package
       id: package
