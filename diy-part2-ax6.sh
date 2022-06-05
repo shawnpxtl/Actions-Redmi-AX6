@@ -27,8 +27,11 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 # git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
 
 # 添加额外软件包
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
+# git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
 # git clone https://github.com/sbwml/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/chrisblue/luci-app-unblockmusic feeds/luci/applications
+git clone https://github.com/chrisblue/UnblockNeteaseMusic feeds/packages/multimedia
+git clone https://github.com/chrisblue/UnblockNeteaseMusic-Go feeds/packages/multimedia
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 # 添加核心温度的显示
