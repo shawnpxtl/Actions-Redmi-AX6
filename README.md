@@ -6,7 +6,6 @@
 
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
 > OpenWRT branch from [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15-pr)<br>
-> OpenWRT Second branch from [Boos4721/openwrt](https://github.com/Boos4721/openwrt)<br>
 
 Use Github Actions Automatically compile firmware for Redmi AX6
 
