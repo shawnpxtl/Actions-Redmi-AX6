@@ -59,7 +59,6 @@
 
 * [如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)
 * [在刷入uboot后刷回官方固件](tutorial/with-uboot-Flashback-to-stock-firmware.md)
-* 
 
 ## 截图
 
