@@ -43,4 +43,4 @@ mtd write /tmp/appsbl.bin /dev/mtd7
 
 PS：（此为原作者遇到的情况，如果你们也遇到可以试试）如果最后一步重新插电后没能刷进官方系统，那再次使用小米修复工具按照流程修复一遍即可。
 
-最后附上我的备份(此处只有AX6，ax3600可以去原帖下载)：[Google Drive](https://drive.google.com/file/d/1G3XfI3kBoj7iHb1pOFV6NweGGzXRZSJe/view?usp=sharing "Google Drive")  [123网盘(提取码:Gi1Z)](https://www.123pan.com/s/o17DVv-dClm "123网盘(提取码:Gi1Z)")
+### 最后附上我的备份(此处只有AX6，ax3600可以去原帖下载)：[Google Drive](https://drive.google.com/file/d/1G3XfI3kBoj7iHb1pOFV6NweGGzXRZSJe/view?usp=sharing "Google Drive")  [123网盘(提取码:Gi1Z)](https://www.123pan.com/s/o17DVv-dClm "123网盘(提取码:Gi1Z)")
