@@ -4,7 +4,6 @@
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
 > OpenWRT分支来自[robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15-pr)<br>
-> OpenWRT第二分支来自[Boos4721/openwrt](https://github.com/Boos4721/openwrt)<br>
 
 用Github Actions为AX6自动编译固件
 
