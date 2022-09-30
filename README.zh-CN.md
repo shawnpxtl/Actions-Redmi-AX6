@@ -55,9 +55,11 @@
    | 默认后台地址 | `192.168.2.1` |
    | 默认后台密码 | `password` |
 
-## 教程以及额外说明 <a id="tutorial"></a>
+## 其它教程（均来自互联网，此处作备份用） <a id="tutorial"></a>
 
 * [如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)
+* [在刷入uboot后刷回官方固件](tutorial/with-uboot-Flashback-to-stock-firmware.md)
+* 
 
 ## 截图
 
