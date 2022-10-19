@@ -1,4 +1,4 @@
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/chrisblue/OpenWrt-Multi?style=for-the-badge&label=下载)](https://github.com/chrisblue/OpenWrt-Multi/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/chrisblue/OpenWrt-Redmi-AX6-Robi?style=for-the-badge&label=下载)](https://github.com/chrisblue/OpenWrt-Redmi-AX6-Robi/releases/latest)
 
 # 关于这个仓库
 
