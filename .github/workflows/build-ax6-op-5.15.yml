@@ -167,6 +167,13 @@ jobs:
         touch release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
+        echo "Redmi-AX6-5.15 Openwrt Firmware：" >> release.txt
+        echo "IP:192.168.2.1" >> release.txt
+        echo "Account：root" >> release.txt
+        echo "Password：password" >> release.txt
+        echo "Source Code：https://github.com/openwrt/openwrt" >> release.txt
+        echo "Kernel：5.15.x" >> release.txt
+        echo "${{ env.useVersionInfo }}" >> release.txt
         echo "::set-output name=status::success"
 
     - name: Upload firmware to release
