@@ -3,7 +3,7 @@
 # 关于这个仓库
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
-> OpenWRT分支来自[robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15-pr)<br>
+> OpenWRT分支来自[官方源码](https://github.com/openwrt/openwrt)<br>
 
 用Github Actions为AX6自动编译固件
 
@@ -74,7 +74,8 @@ AX6：<br>
    ```
    ~~然后重启一次路由器 这样就会在每天凌晨4点和下午16点重启，如果能看懂crontab的原理的话也可以自定义重启时间~~
    
-* (更新)因为内存导致的luci卡死问题似乎修复了(至少我开机好几天没见luci崩溃了)，不过由于5.15内核源码的原因，开不了160Mhz
+* (更新)因为内存导致的luci卡死问题似乎修复了(至少我开机好几天没见luci崩溃了)，~~不过由于5.15内核源码的原因，开不了160Mhz~~
+* (再次更新)若要开160Mhz请在网络-无线项目找到Generic 802.11acaxn，点击编辑，将信道设置成48(亲测可用，也可以尝试其它信道)，然后在高级设置下把国家设置为US - United States，保存并应用设置，等待一分钟左右即可
 
 ## 感谢
 
