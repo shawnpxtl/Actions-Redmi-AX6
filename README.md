@@ -72,7 +72,7 @@ Use Github Actions Automatically compile firmware for Redmi AX6
    ~~Then restart the router once. It will restart at 4 am and 16 pm every day. If you can understand the principle of crontab, you can also customize the restart time.~~
 
 * (update)The problem of luci stuck due to memory seems to be fixed (I haven't seen luci crash for several days after booting), ~~but due to at least 5.15 kernel, it can't open 160Mhz.~~
-* (Update again) If you want to open 160Mhz, please find Generic 802.11acaxn in the network-wireless item, click edit, set the channel to 48 (pro-test available, you can also try other channels), and then set the country to US under advanced settings - United States, save and apply the settings, wait a minute
+* (Update again) If you want to open 160Mhz, please find Generic 802.11acaxn in the network-wireless item, click edit, set the channel to 48 (pro-test available, you can also try other channels), and then set the country to US - United States, save and apply the settings, wait a minute
 
 ## Credits
 
