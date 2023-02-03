@@ -2,7 +2,8 @@
 
 ## 图解
 
-![](../.gitbook/assets/Upgrade.png)
+![1](../.gitbook/assets/Upgrade-1.png)
+![2](../.gitbook/assets/Upgrade-2.png)
 
 ## 注意事项
 
