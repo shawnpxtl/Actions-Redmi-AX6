@@ -58,9 +58,8 @@ mtd erase /dev/mtd1
 mtd write /tmp/(您下载的mibib分区表).bin /dev/mtd1
 mtd erase /dev/mtd7
 mtd write /tmp/(您下载的uboot).bin /dev/mtd7
-reboot
 ```
-4. 重启机器，同时拿针等细物按住reset孔，等蓝灯亮后将电脑IP地址设置为192.168.1.10，网关设置为192.168.1.1
+4. 拔电重启机器，同时拿针等细物按住reset孔，等蓝灯亮后将电脑IP地址设置为192.168.1.10，网关设置为192.168.1.1
 5. 浏览器进入[192.168.1.1](192.168.1.1)，刷入***-initramfs-factory.ubi
 6. 改回DHCP，进入路由器后台，按照[如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)刷入***-squashfs-sysupgrade.bin
 7. 完事
