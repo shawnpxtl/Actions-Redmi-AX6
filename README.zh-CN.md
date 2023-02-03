@@ -48,6 +48,23 @@
 2. 刷入后请插入电源并同时使用卡针或任何物件按住AX6路由器Reset孔5秒直至红灯亮起，修改ip为192.168.1.10、网关为192.168.1.1以进入uboot
 3. 上传.ubi后缀的固件，等待自动重启，完成
 
+## 针对AX6的说明（刷2023.02.03及以后的固件）
+
+1. 先刷入官方分区表和志平/暗云的uboot[分区表参考链接](https://www.right.com.cn/forum/thread-8253493-1-1.html) [志平uboot参考链接](https://www.right.com.cn/FORUM/thread-8253375-1-1.html) [暗云uboot参考链接](https://mbd.pub/o/anyun/work)
+2. 用winscp等一切方法将uboot和分区表传输至ax6路由器
+3. 依次输入以下命令：
+```
+mtd erase /dev/mtd1
+mtd write /tmp/(您下载的mibib分区表).bin /dev/mtd1
+mtd erase /dev/mtd7
+mtd write /tmp/(您下载的uboot).bin /dev/mtd7
+reboot
+```
+4. 重启机器，同时拿针等细物按住reset孔，等蓝灯亮后将电脑IP地址设置为192.168.1.10，网关设置为192.168.1.1
+5. 浏览器进入[192.168.1.1](192.168.1.1)，刷入***-initramfs-factory.ubi
+6. 改回DHCP，进入路由器后台，按照[如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)刷入***-squashfs-sysupgrade.bin
+7. 完事
+
 ## 后台进入方式和密码
 
    | 项目 | 值 |
