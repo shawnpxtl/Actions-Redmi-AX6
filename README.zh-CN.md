@@ -31,7 +31,7 @@
 * Python(主要是因为要挂原神和米游社签到脚本用，所以路由器固件才这么大的😂)
 * 更多功能自行刷入查看(可能会不定期变动)...
 
-## 针对AX6的说明
+## 刷入教程
 
 1. 上传自己的`AX6.config`文件
 2. 进入Actions页面手动启动编译
@@ -41,13 +41,13 @@
 6. 刷入固件`ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi`PS：文件名只是个例子，刷入时以你下载的ubi文件名为准
 7. 输入`fw_setenv flag_last_success=0`和`fw_setenv flag_boot_rootfs=0`然后重启设备，完成
 
-## 针对AX6的说明（刷了uboot之后）
+## 刷入教程（刷了uboot之后）
 
 1. 没有刷入的话请先刷入uboot，刷入过的直接第二步 [123网盘(提取码：88g5 压缩包密码：RA69)](https://www.123pan.com/s/o17DVv-hClm) [Google Drive(压缩包密码：RA69)](https://drive.google.com/file/d/1cuJoNP-8yTMXOVPIBPK1KmOOsvPcJbFU/view?usp=sharing)
 2. 刷入后请插入电源并同时使用卡针或任何物件按住AX6路由器Reset孔5秒直至红灯亮起，修改ip为192.168.1.10、网关为192.168.1.1以进入uboot
 3. 上传.ubi后缀的固件，等待自动重启，完成
 
-## 针对AX6的说明（刷2023.02.03及以后的固件）
+## 刷入教程（刷2023.02.03及之后的固件）
 
 1. 先刷入官方分区表和志平/暗云的uboot[分区表参考链接](https://www.right.com.cn/forum/thread-8253493-1-1.html) [志平uboot参考链接](https://www.right.com.cn/FORUM/thread-8253375-1-1.html) [暗云uboot参考链接](https://mbd.pub/o/anyun/work)
 2. 用winscp等一切方法将uboot和分区表传输至ax6路由器
