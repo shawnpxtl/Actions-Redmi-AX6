@@ -2,8 +2,11 @@
 
 ## 图解
 
+### 如果是用openwrt源码的
 ![1](../.gitbook/assets/Upgrade-1.png)
 ![2](../.gitbook/assets/Upgrade-2.png)
+### 如果是用旧openwrt和LEDE源码的
+![1](../.gitbook/assets/Upgrade.png)
 
 ## 注意事项
 
