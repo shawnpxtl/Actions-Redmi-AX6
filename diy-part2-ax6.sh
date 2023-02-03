@@ -33,6 +33,7 @@ git clone https://github.com/WROIATE/luci-app-unblocknetease package/custom/unbl
 git clone https://github.com/WROIATE/UnblockNeteaseMusicGo package/custom/unblocknetease/UnblockNeteaseMusicGo
 # git clone https://github.com/sbwml/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
 
 # 添加核心温度的显示
 sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
