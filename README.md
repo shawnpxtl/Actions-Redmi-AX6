@@ -37,7 +37,7 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 
 ## Instructions
 
-1. Upload your own `AX6-LEDE.config` file (depending on which branch you want to be on)
+1. Upload your own `AX6-***.config` file (depending on which branch you want to be on)
 2. Enter the Actions page to manually start the compilation
 3. When the compilation is complete, download the compiled `xxx-factory.ubi` firmware on the Releases page.
 4. If you have previously flashed dual systems to AX6, please enter `fw_setenv flag_last_success=1` and `fw_setenv flag_boot_rootfs=1` and then restart the device to switch the system (if not, please click the [reference link(Please solve the translation problem yourself)](https://www.right.com.cn/forum/thread-6054985-1-1.html) to install the dual system)
