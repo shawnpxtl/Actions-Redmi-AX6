@@ -29,7 +29,8 @@ git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-ar
 
 # 添加额外软件包
 # git clone https://github.com/panther706/luci-app-adguardhome package/luci-app-adguardhome
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
+git clone https://github.com/WROIATE/luci-app-unblocknetease package/custom/unblocknetease/luci-app-unblocknetease
+git clone https://github.com/WROIATE/UnblockNeteaseMusicGo package/custom/unblocknetease/UnblockNeteaseMusicGo
 # git clone https://github.com/sbwml/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
