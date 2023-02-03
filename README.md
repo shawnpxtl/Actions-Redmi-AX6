@@ -29,10 +29,9 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 ## Features
 
 * [OpenClash](https://github.com/vernesong/OpenClash)
-* UnblockMusic
 * Wake-On-LAN
 * DDNS
-* Python(It is mainly used for scripts, so the router is so large because it is hung up. 😂)
+~~* Python(It is mainly used for scripts, so the router is so large because it is hung up. 😂)~~
 * More functions by themselves (may be refreshed from time to time to check)...
 
 ## Instructions
