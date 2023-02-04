@@ -28,7 +28,6 @@
 * [OpenClash](https://github.com/vernesong/OpenClash)
 * 网络唤醒
 * DDNS
-* Python(主要是因为要挂原神和米游社签到脚本用，所以路由器固件才这么大的😂)
 * 更多功能自行刷入查看(可能会不定期变动)...
 
 ## 刷入教程
