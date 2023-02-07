@@ -49,7 +49,7 @@
 ## 刷入教程（刷2023.02.03及之后的固件）
 
 1. 先刷入官方分区表和志平/暗云的uboot[分区表参考链接](https://www.right.com.cn/forum/thread-8253493-1-1.html) [志平uboot参考链接](https://www.right.com.cn/FORUM/thread-8253375-1-1.html) [暗云uboot参考链接](https://mbd.pub/o/anyun/work)
-2. 用winscp等一切方法将uboot和分区表传输至ax6路由器
+2. 用[winscp](https://winscp.net/eng/download.php)等一切方法将uboot和分区表传输至ax6路由器
 3. 依次输入以下命令：
 ```
 mtd erase /dev/mtd1
