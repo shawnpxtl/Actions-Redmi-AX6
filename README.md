@@ -53,7 +53,7 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 
 1. First flash into the official partition table and uboot of ZhiPing/AnYun [partition table reference link](https://www.right.com.cn/forum/thread-8253493-1-1.html) [ZhiPing uboot reference Link](https://www.right.com.cn/FORUM/thread-8253375-1-1.html) [AnYun uboot reference link](https://mbd.pub/o/anyun/work)
 2. Use a method such as winscp to transfer uboot and partition table to ax6 router
-3. Enter the following commands in sequence:
+3. SSH into ax6，enter the following commands in sequence:
 ```
 mtd erase /dev/mtd1
 mtd write /tmp/(the mibib partition table you downloaded).bin /dev/mtd1
