@@ -9,22 +9,6 @@
 本项目的固件原则上每周自动编译一次，您也可以fork自行修改~  
 如果您觉得本项目不错的话，可以Star一下，我会感激不尽的！就酱~  
 
-## Redmi AX6 参数
-
-![luci\_admin\_status\_overview](.gitbook/assets/redmi-ax6.jpg)
-
-   | 参数 | 值 |
-   | :--- | :--- |
-   | CPU | [Qualcomm Pro 600 Series IPQ8071A](https://www.qualcomm.com/products/application/networking/qualcomm-networking-pro-600-platform) |
-   | CPU频率 | 4xA53 1.4GHz |
-   | 闪存 | 128MB |
-   | 内存 | 512MB |
-   | 无线速率 | 3000Mbps (5GHz:2402Mbps,2.4GHz:572Mbps) |
-   | 无线协议 | 802.11ax (WIFI 6) |
-   | 网口 | 10/100/1000Mbps x4 |
-
-#### 注意：部分参数可能只有官方固件能用的到
-
 ## 特性
 
 * [OpenClash](https://github.com/vernesong/OpenClash)
