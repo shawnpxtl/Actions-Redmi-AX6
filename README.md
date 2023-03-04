@@ -7,7 +7,7 @@
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
 > OpenWRT branch from [Official](https://github.com/openwrt/openwrt/)<br>
 
-Use Github Actions Automatically compile firmware for Redmi AX6
+Use Github Actions Automatically compile firmware for Redmi AX6  
 In principle, the firmware of this project is automatically compiled once a week, and you can also fork to modify it by yourself.  
 If you think this project is good, you can star it, I will be very grateful!  
 
