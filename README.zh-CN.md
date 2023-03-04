@@ -6,6 +6,8 @@
 > OpenWRT分支来自[官方源码](https://github.com/openwrt/openwrt)<br>
 
 用Github Actions为AX6自动编译固件
+本项目的固件原则上每周自动编译一次，您也可以fork自行修改~
+如果您觉得本项目不错的话，可以Star一下，我会感激不尽的！就酱~
 
 ## Redmi AX6 参数
 
