@@ -5,7 +5,9 @@
 ### 如果是用openwrt源码的
 ![1](../.gitbook/assets/Upgrade-1.png)
 ![2](../.gitbook/assets/Upgrade-2.png)
-提示：如果你是打算从本项目下载的固件进行升级的可勾选保留当前配置，以省去配置的麻烦。
+#### 提示：
+1.如果你是打算从本项目下载的固件进行升级的可勾选保留当前配置，以省去配置的麻烦。 
+2.可能需要多次升级固件才能完成升级，若想知道是否完成升级可下载version.buildinfo跟固件版本的rXXXXX-...对照，如果版本号一致即完成升级。
 ### 如果是用旧openwrt和LEDE源码的
 ![1](../.gitbook/assets/Upgrade.png)
 
