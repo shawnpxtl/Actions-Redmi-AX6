@@ -38,7 +38,7 @@ If you think this project is good, you can star it, I will be very grateful!
 
 ## Instructions (for 2023.02.03 and later firmware)
 
-1. First flash into the official partition table and uboot of ZhiPing/AnYun [partition table reference link](https://www.right.com.cn/forum/thread-8253493-1-1.html) [ZhiPing uboot reference Link](https://www.right.com.cn/FORUM/thread-8253375-1-1.html) [AnYun uboot reference link](https://mbd.pub/o/anyun/work)
+1. First flash into the official partition table and uboot of ZhiPing [partition table](https://www.right.com.cn/forum/thread-8253493-1-1.html) [ZhiPing uboot](https://www.right.com.cn/FORUM/thread-8253375-1-1.html) 
 2. Use a method such as winscp to transfer uboot and partition table to ax6 router
 3. SSH into ax6，enter the following commands in sequence:
 ```
