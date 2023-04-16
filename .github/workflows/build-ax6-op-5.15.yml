@@ -101,10 +101,16 @@ jobs:
 
     - name: SSH connection to Actions
       uses: gatest233/ssh2actions@main
-      if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
-      env:
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+  with:
+    mode: ssh
+  env:
+    # This password you will use when authorizing via SSH
+    SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+
+    # Send connection info to Telegram (optional)
+    # You can find related documents here: https://core.telegram.org/bots
+    TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+    TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
     - name: Download package
       id: package
