@@ -175,7 +175,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "name=release_tag::$(date +"AX6-OP-K5.15-%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
+        echo "::set-output name=release_tag::AX6_$(date +"%Y.%m.%d_%H-%M")"
         touch release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
