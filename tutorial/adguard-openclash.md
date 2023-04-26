@@ -16,3 +16,7 @@
 ### 效果图
 ![image](https://user-images.githubusercontent.com/67815438/234561736-10f3bdd8-1670-4a70-be57-a0d9389865bc.png)
 ![image](https://user-images.githubusercontent.com/67815438/234561805-6307d907-8fc6-4e8e-90fb-e3368328ee46.png)
+
+## 已知问题1：iOS设备无互联网连接
+1. 找到你的WiFi，然后设置DNS为路由器的IP地址即可(比如你路由器IP为192.168.2.1那就填这个)
+![22C28F6223B70F87DCAA37FC79251076](https://user-images.githubusercontent.com/67815438/234564845-6476336c-7154-4a36-8f44-0f2c34e856ce.png)
