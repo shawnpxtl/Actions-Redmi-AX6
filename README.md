@@ -15,6 +15,7 @@ If you think this project is good, you can star it, I will be very grateful!
 
 ## Features
 
+* ADGuard Home
 * [OpenClash](https://github.com/vernesong/OpenClash)
 * Wake-On-LAN
 * DDNS
