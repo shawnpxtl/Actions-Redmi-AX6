@@ -61,6 +61,7 @@ mtd write /tmp/(您下载的uboot).bin /dev/mtd7
 
 * [如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)
 * [在刷入uboot后如何刷回官方固件](tutorial/with-uboot-Flashback-to-stock-firmware.md)
+* [让ADGuard Home和openclash共存](tutorial/adguard-openclash.md)
 
 ## 截图
 
