@@ -13,6 +13,7 @@
 
 ## 特性
 
+* ADGuard Home
 * [OpenClash](https://github.com/vernesong/OpenClash)
 * 网络唤醒
 * DDNS
