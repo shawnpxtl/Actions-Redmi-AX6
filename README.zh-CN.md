@@ -58,11 +58,11 @@ mtd write /tmp/(您下载的uboot).bin /dev/mtd7
    | 默认后台地址 | `192.168.2.1` |
    | 默认后台密码 | `password` |
 
-## 其它教程（均来自互联网，此处作备份用） <a id="tutorial"></a>
+## 其它教程（大多数教程均来自互联网，此处作备份用） <a id="tutorial"></a>
 
 * [如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)
 * [在刷入uboot后如何刷回官方固件](tutorial/with-uboot-Flashback-to-stock-firmware.md)
-* [让ADGuard Home和openclash共存](tutorial/adguard-openclash.md)
+* [让ADGuard Home和openclash共存(自己做的设置，测试适用于本固件)](tutorial/adguard-openclash.md)
 
 ## 截图
 
