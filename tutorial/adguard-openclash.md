@@ -1,9 +1,10 @@
 # 如何共存ADGuard Home+OpenClash?
 
 ### 对于ADGuard Home的设置
-1. 在管理设置中把53重定向设置为使用53端口替换dnsmasq
-2. 设置好ADGuard Home，在控制台上设置-DNS设置，上游 DNS 服务器填入`127.0.0.1:7874`(openclash默认使用的DNS端口)即可。
-3. 如果全部设置好发现连不了网可尝试设置Bootstrap DNS服务器为自已运营商的DNS服务器。
+1. 在管理设置中把重定向设置为作为dnsmasq的上游服务器，且在手动设置中修改port为除53以外的其它无占用端口(记住您设置的端口)。
+2. 在网络-DHCP/DNS-常规设置中，添加DNS转发为`127.0.0.1#您设置的AdGuard Home端口`，保存。
+3. 设置好ADGuard Home，在控制台上设置-DNS设置，上游 DNS 服务器填入`127.0.0.1:7874`(openclash默认使用的DNS端口)即可。
+4. 如果全部设置好发现连不了网可尝试设置Bootstrap DNS服务器为自已运营商的DNS服务器。
 ![image](https://user-images.githubusercontent.com/67815438/234561559-20dad298-a8ef-41ca-837e-fbed74192f31.png)
 
 ### 对于openclash的设置
@@ -17,6 +18,7 @@
 ![image](https://user-images.githubusercontent.com/67815438/234561736-10f3bdd8-1670-4a70-be57-a0d9389865bc.png)
 ![image](https://user-images.githubusercontent.com/67815438/234561805-6307d907-8fc6-4e8e-90fb-e3368328ee46.png)
 
+## 假如遇到了以下问题...（设置好后没问题就不要作死）
 ## 如果iOS设备上不了网（其它设备连不上网也可以试试）
 1. 找到你的WiFi，然后设置DNS为路由器的IP地址即可(比如你路由器IP为192.168.2.1那就填这个)。
 ![22C28F6223B70F87DCAA37FC79251076](https://user-images.githubusercontent.com/67815438/234564845-6476336c-7154-4a36-8f44-0f2c34e856ce.png)
