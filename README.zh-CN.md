@@ -1,6 +1,6 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/InfinityTL/OpenWrt-Redmi-AX6-Robi?style=for-the-badge&label=下载)](https://github.com/InfinityTL/OpenWrt-Redmi-AX6-Robi/releases/latest)
 
-### ⚠注意：值守式系统更新千万不要操作，否则会导致功能/皮肤缺失，甚至影响使用！！！⚠
+### ⚠注意：值守式系统更新千万不要操作，且最好在值守式系统更新的配置中把下载地址去掉，否则真的会影响使用的！！！我这段时间转私有就是为了排查这个问题...⚠
 
 # 关于这个仓库
 
