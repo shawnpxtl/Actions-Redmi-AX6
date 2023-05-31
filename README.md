@@ -2,7 +2,7 @@
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/chrisblue/OpenWrt-Redmi-AX6?style=for-the-badge&label=Download)](https://github.com/chrisblue/OpenWrt-Multi/releases/latest)
 
-### ⚠WARNING: Never operate on-duty system updates, otherwise it will cause loss of functions/skins, and even affect the use! ! ! ! !⚠
+### ⚠WARNING: Do not operate the on-duty system update, and it is best to remove the download address in the configuration of the on-duty system update, otherwise it will really affect the use! ! ! I switched to private during this time just to troubleshoot this problem...⚠
 
 # About this repository
 
