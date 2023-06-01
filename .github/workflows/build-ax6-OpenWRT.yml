@@ -214,7 +214,7 @@ jobs:
         allowUpdates: true
         tag: ${{ env.FILE_NAME }}
         commit: master
-        github_token: ${{ secrets.github-token || secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         body: |
           默认IP： 192.168.2.1 默认密码： 无
           当前使用版本:【编译前的最后一次[➦主源码](https://github.com/openwrt/openwrt)更新记录】
