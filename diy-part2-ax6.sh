@@ -28,9 +28,6 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 # git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git package/luci-app-adguardhome
-git clone https://github.com/WROIATE/luci-app-unblocknetease package/luci-app-unblocknetease
-git clone https://github.com/WROIATE/UnblockNeteaseMusicGo package/UnblockNeteaseMusicGo
-git clone https://github.com/kuoruan/openwrt-upx.git package/openwrt-upx
 
 # 添加核心温度的显示
 # sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
