@@ -26,7 +26,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 
 # 添加额外软件包
 # git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/vernesong/OpenClash.git --depth=1 package/OpenClash
 git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git package/luci-app-adguardhome
 
 # 添加核心温度的显示
