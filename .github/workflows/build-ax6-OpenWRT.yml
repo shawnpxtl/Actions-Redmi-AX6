@@ -36,8 +36,8 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  FILE_NAME: RedmiAX6
-  PRODUCT_NAME: RedmiAX6
+  FILE_NAME: Redmi-AX6-OpenWRT
+  PRODUCT_NAME: Redmi-AX6-OpenWRT
 
 jobs:
   build:
