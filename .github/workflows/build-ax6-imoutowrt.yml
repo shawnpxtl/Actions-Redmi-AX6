@@ -36,7 +36,7 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  FILE_NAME: Redmi-AX6- ImmortalWrt
+  FILE_NAME: Redmi-AX6-ImmortalWrt
   PRODUCT_NAME: Redmi-AX6-ImmortalWrt
 
 jobs:
