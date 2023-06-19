@@ -21,7 +21,7 @@
 
 ## 刷入教程
 
-您是要刷[ImmortalWrt](tutorial/ImmortalWrt.md)还是刷[OpenWrt](OpenWrt.md)呢？
+您是要刷[ImmortalWrt](tutorial/ImmortalWrt.md)还是刷[OpenWrt](tutorial/OpenWrt.md)呢？
 
 ## 后台进入方式和密码
 
