@@ -23,35 +23,7 @@ If you think this project is good, you can star it, I will be very grateful!
 
 ## Instructions
 
-1. Upload your own `AX6-***.config` file (depending on which branch you want to be on)
-2. Enter the Actions page to manually start the compilation
-3. When the compilation is complete, download the compiled `xxx-factory.ubi` firmware on the Releases page.
-4. If you have previously flashed dual systems to AX6, please enter `fw_setenv flag_last_success=1` and `fw_setenv flag_boot_rootfs=1` and then restart the device to switch the system (if not, please click the [reference link(Please solve the translation problem yourself)](https://www.right.com.cn/forum/thread-6054985-1-1.html) to install the dual system)
-5. Upload the firmware with the suffix of .ubi via scp
-6. Flashing in the firmware `ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi` PS: The file name is just an example. When flashing in, the ubi file name you downloaded will prevail
-7. Enter `fw_setenv flag_last_success=0` and `fw_setenv flag_boot_rootfs=0` and then restart the device
-
-## Instructions（with uboot）
-
-1. If you haven't flashed it, please flash uboot first, and the second step if you have flashed it. [123pan(Extraction password：88g5 compressed file password：RA69)](https://www.123pan.com/s/o17DVv-hClm) [Google Drive(compressed file password：RA69)](https://drive.google.com/file/d/1cuJoNP-8yTMXOVPIBPK1KmOOsvPcJbFU/view?usp=sharing)
-2. After flashing, please plug in the power supply and use the card pin or any object to hold down the reset hole of the AX6 router for 5 seconds until the red light turns on, modify the ip to 192.168.1.10 and the gateway to 192.168.1.1 to enter uboot
-3. Upload the firmware with the .ubi suffix, wait for the automatic restart, and complete
-
-## Instructions (for 2023.02.03 and later firmware)
-
-1. First flash into the official partition table and uboot of ZhiPing [partition table](https://www.right.com.cn/forum/thread-8253493-1-1.html) [ZhiPing uboot](https://www.right.com.cn/FORUM/thread-8253375-1-1.html) 
-2. Use a method such as winscp to transfer uboot and partition table to ax6 router
-3. SSH into ax6，enter the following commands in sequence:
-```
-mtd erase /dev/mtd1
-mtd write /tmp/(the mibib partition table you downloaded).bin /dev/mtd1
-mtd erase /dev/mtd7
-mtd write /tmp/(uboot you downloaded).bin /dev/mtd7
-```
-4. Unplug the power and turn it on again, hold the reset hole with a needle or other thin objects at the same time, and set the computer IP address to 192.168.1.10 after the blue light is on, and the network gateway to 192.168.1.1
-5. Enter 192.168.1.1 in the browser, flash into ***-initramfs-factory.ubi
-6. Change back to DHCP, enter the background of the router, click [How to update the firmware](tutorial/ru-he-geng-xin-gu-jian.md) to flash ***-squashfs-sysupgrade.bin
-7. finish
+Do you want to flashing [ImmortalWrt](tutorial/ImmortalWrt.en_US.md) or [OpenWrt](tutorial/OpenWrt.en_US.md)?
 
 ## Default IP address and password
    | project | value |
@@ -81,8 +53,9 @@ mtd write /tmp/(uboot you downloaded).bin /dev/mtd7
 * [Microsoft Azure](https://azure.microsoft.com/)
 * [GitHub Actions](https://github.com/features/actions)
 * [OpenWRT](https://github.com/openwrt/openwrt)
+* [ImmortalWrt](https://github.com/immortalwrt/immortalwrt)
 * [tmate](https://github.com/tmate-io/tmate)
 * [P3TERX](https://github.com/P3TERX)
 * [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
 * [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)
-* and all OpenWRT/LEDE related contributors
+* and all OpenWRT/ImmortalWrt related contributors
