@@ -21,35 +21,7 @@
 
 ## 刷入教程
 
-1. 上传自己的`AX6.config`文件
-2. 进入Actions页面手动启动编译
-3. 当编译完成后，在Releases页面下载含编译出的`xxx-factory.ubi`固件(如果要在op下升级则是下载`xxx-sysupgrade.bin`后缀的固件)
-4. 如果你此前给AX6刷入了双系统，请输入`fw_setenv flag_last_success=1`和`fw_setenv flag_boot_rootfs=1`然后重启设备切换系统（没有的话请点击[参考链接](https://www.right.com.cn/forum/thread-6054985-1-1.html) [GitHub镜像](.gitbook/assets/ax6-dualsystm.md)安装双系统）
-5. 通过scp上传后缀为.ubi的固件
-6. 刷入固件`ubiformat /dev/mtd13 -y -f /tmp/openwrt-xxx-redmi_ax6-squashfs-nand-factory.ubi`PS：文件名只是个例子，刷入时以你下载的ubi文件名为准
-7. 输入`fw_setenv flag_last_success=0`和`fw_setenv flag_boot_rootfs=0`然后重启设备，完成
-
-## 刷入教程（刷了uboot之后）
-
-1. 没有刷入的话请先刷入uboot，刷入过的直接第二步 [123网盘(提取码：88g5 压缩包密码：RA69)](https://www.123pan.com/s/o17DVv-hClm) [Google Drive(压缩包密码：RA69)](https://drive.google.com/file/d/1cuJoNP-8yTMXOVPIBPK1KmOOsvPcJbFU/view?usp=sharing)
-2. 刷入后请插入电源并同时使用卡针或任何物件按住AX6路由器Reset孔5秒直至红灯亮起，修改ip为192.168.1.10、网关为192.168.1.1以进入uboot
-3. 上传.ubi后缀的固件，等待自动重启，完成
-
-## 刷入教程（刷2023.02.03及之后的固件）
-
-1. 先刷入官方分区表和志平的uboot[分区表](https://www.right.com.cn/forum/thread-8253493-1-1.html) [志平uboot](https://www.right.com.cn/FORUM/thread-8253375-1-1.html)
-2. 用[winscp](https://winscp.net/eng/download.php)等一切方法将uboot和分区表传输至ax6路由器
-3. 进入ax6的ssh，依次输入以下命令：
-```
-mtd erase /dev/mtd1
-mtd write /tmp/(您下载的mibib分区表).bin /dev/mtd1
-mtd erase /dev/mtd7
-mtd write /tmp/(您下载的uboot).bin /dev/mtd7
-```
-4. 拔电重启机器，同时拿针等细物按住reset孔，等蓝灯亮后将电脑IP地址设置为192.168.1.10，网关设置为192.168.1.1
-5. 浏览器进入192.168.1.1，刷入***-initramfs-factory.ubi
-6. 改回DHCP，进入路由器后台，按照[如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)刷入***-squashfs-sysupgrade.bin
-7. 完事
+您是要刷[ImmortalWrt](tutorial/ImmortalWrt.md)还是刷[OpenWrt](OpenWrt.md)呢？
 
 ## 后台进入方式和密码
 
@@ -87,8 +59,9 @@ AX6(仅LEDE系固件会出现这种情况，目前已经放弃)：<br>
 * [Microsoft Azure](https://azure.microsoft.com/)
 * [GitHub Actions](https://github.com/features/actions)
 * [OpenWRT](https://github.com/openwrt/openwrt)
+* [ImmortalWrt](https://github.com/immortalwrt/immortalwrt)
 * [tmate](https://github.com/tmate-io/tmate)
 * [P3TERX](https://github.com/P3TERX)
 * [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
 * [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)<br>
-* 以及所有跟OpenWRT/LEDE相关的贡献者
+* 以及所有跟OpenWRT/ImmortalWrt等相关的贡献者
