@@ -31,7 +31,7 @@ mtd14: 01ec0000 00020000 “overlay”
 mtd15: 00080000 00020000 “rsvd0”
 root@lede:~#
 ```
-5. 确认存在无误即可后开始刷写，SSH连接路由器依次输入以下命令（OpenWrt官方源码无效，可能对日后救砖造成麻烦，如果介意建议使用ImmortalWrt）：
+5. 确认存在无误即可后开始刷写，SSH连接路由器依次输入以下命令**（OpenWrt官方源码无效，可能对日后救砖造成麻烦，如果介意建议使用ImmortalWrt）**：
 ```
 mtd erase /dev/mtd1
 mtd write /tmp/mibib.bin /dev/mtd1
