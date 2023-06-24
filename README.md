@@ -29,7 +29,7 @@ Do you want to flashing [ImmortalWrt](tutorial/ImmortalWrt.en_US.md) or [OpenWrt
    | project | value |
    | :--- | :--- |
    | Default IP address | `192.168.2.1` |
-   | Default password | `password` |
+   | Default password | `none` |
 
 ## Screenshot
 
