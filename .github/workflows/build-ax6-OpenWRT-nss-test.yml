@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build AX6 OpenWRT with NSS
+name: Build AX6 OpenWRT with NSS (beta)
 
 on:
   repository_dispatch:
