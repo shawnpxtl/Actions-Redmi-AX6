@@ -2,7 +2,7 @@
 
 ## 图解
 
-### 如果是用openwrt源码的
+### 如果是用OpenWrt和ImmortalWrt源码的
 ![1](../.gitbook/assets/Upgrade-1.png)
 ![2](../.gitbook/assets/Upgrade-2.png)
 
