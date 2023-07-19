@@ -217,9 +217,9 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         body: |
           默认IP： 192.168.2.1 默认密码： 无
-          当前使用版本:【编译前的最后一次[➦主源码](https://github.com/immortalwrt/immortalwrt)更新记录】
+          当前使用版本:【编译前的最后一次[➦主源码](https://github.com/slippersheepig/ax6)更新记录】
           Default IP:192.168.2.1 password:none
-          Current version: [The last [➦source code](https://github.com/immortalwrt/immortalwrt) update record before compiling]
+          Current version: [The last [➦source code](https://github.com/slippersheepig/ax6) update record before compiling]
           ${{ env.useVersionInfo }}
         artifacts: ${{ env.FIRMWARE }}/*
 
