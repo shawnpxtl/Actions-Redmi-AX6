@@ -35,6 +35,7 @@
 * [如何更新固件](tutorial/ru-he-geng-xin-gu-jian.md)
 * [在刷入uboot后如何刷回官方固件](tutorial/with-uboot-Flashback-to-stock-firmware.md)
 * [让AdGuard Home和OpenClash共存(自己做的设置，测试适用于本固件)](tutorial/adguard-openclash.md)
+* [AX6双系统](tutorial/ax6-dualsystm.md)
 
 ## 截图
 
