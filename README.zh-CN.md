@@ -1,11 +1,11 @@
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/InfinityTL/OpenWrt-Redmi-AX6-Robi?style=for-the-badge&label=下载)](https://github.com/InfinityTL/OpenWrt-Redmi-AX6-Robi/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-Redmi-AX6?style=for-the-badge&label=下载)](https://github.com/shawnpxtl/Actions-Redmi-AX6/releases/latest)
 
 ### ⚠注意：值守式系统更新千万不要操作，且最好在值守式系统更新的配置中把下载地址去掉，否则真的会影响使用的！！！⚠
 
 # 关于这个仓库
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
-> [OpenWRT](https://github.com/openwrt/openwrt)/[ImmortalWrt](https://github.com/immortalwrt/immortalwrt)分支来自官方源码<br>
+> [OpenWRT](https://github.com/openwrt/openwrt)/[ImmortalWrt](https://github.com/immortalwrt/immortalwrt)分支来自官方源码，[LEDE](https://github.com/slippersheepig/ax6)分支来自slippersheepig<br>
 
 用Github Actions为AX6自动编译固件  
 本项目的固件原则上每周自动编译一次，您也可以fork自行修改~  
