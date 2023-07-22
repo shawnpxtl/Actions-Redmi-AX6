@@ -1,5 +1,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-Redmi-AX6?style=for-the-badge&label=下载)](https://github.com/shawnpxtl/Actions-Redmi-AX6/releases/latest)
 
+# 基于ImmortalWrt源码的带TurboACC的固件即将提供，具体[点此查看](https://github.com/shawnpxtl/Actions-Redmi-AX6-TurboACC)
+
 ### ⚠注意：值守式系统更新千万不要操作，且最好在值守式系统更新的配置中把下载地址去掉，否则真的会影响使用的！！！⚠
 
 # 关于这个仓库
