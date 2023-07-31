@@ -7,7 +7,7 @@
 # About this repository
 
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
-> [OpenWRT](https://github.com/openwrt/openwrt)/[ImmortalWrt](https://github.com/immortalwrt/immortalwrt) branch from official source,[LEDE](https://github.com/slippersheepig/ax6) branch from slippersheepig<br>
+> [OpenWRT](https://github.com/openwrt/openwrt)/[ImmortalWrt](https://github.com/immortalwrt/immortalwrt) branch from official source<br>
 
 Use Github Actions Automatically compile firmware for Redmi AX6  
 In principle, the firmware of this project is automatically compiled once a week, and you can also fork to modify it by yourself.  
