@@ -79,7 +79,8 @@ jobs:
       run: |
         echo "警告⚠"
         echo "若分配的服务器性能不足，务必及时取消，重新运行！"
-        echo "自测编译成功CPU型号：8370C,8171M,8272CL,E5-26xxv4"
+        echo "截止到现在运行Action大概率用的EPYC 7763了"
+        echo "自测编译成功CPU型号：8370C,8171M,8272CL,E5-26xxv4,EPYC 7763"
         echo "自测性能不足CPU型号："
         echo -e "-------------- ------------CPU信息------------------------------------------\n"
         echo "CPU物理数量:$(cat /proc/cpuinfo| grep "physical id"| sort| uniq| wc -l)"
