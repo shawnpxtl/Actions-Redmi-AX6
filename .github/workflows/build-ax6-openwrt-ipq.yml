@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build AX6 OpenWRT
+name: Build AX6 OpenWRT-IPQ
 
 on:
   repository_dispatch:
@@ -19,15 +19,15 @@ on:
         required: false
         default: 'false'
   schedule:
-#    - cron: 00 3 * * 6
+    - cron: 00 3 * * 6
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/qosmio/openwrt-ipq
+  REPO_BRANCH: qualcommax-6.x-nss-wifi
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: AX6/openwrt/AX6-openwrt.config
+  CONFIG_FILE: AX6/openwrt-ipq/AX6-openwrt-ipq.config
   DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: AX6/openwrt/diy-part2-ax6.sh
+  DIY_P2_SH: AX6/openwrt-ipq/diy-part2-ax6.sh
 #  DIY_P3_SH: diy-part3.sh
 #  SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
@@ -36,8 +36,8 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  FILE_NAME: Redmi-AX6-OpenWRT
-  PRODUCT_NAME: Redmi-AX6-OpenWRT
+  FILE_NAME: Redmi-AX6-OpenWRT-IPQ
+  PRODUCT_NAME: Redmi-AX6-OpenWRT-IPQ
 
 jobs:
   build:
@@ -217,9 +217,9 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         body: |
           默认IP： 192.168.2.1 默认密码： 无
-          当前使用版本:【编译前的最后一次[➦主源码](https://github.com/openwrt/openwrt)更新记录】
+          当前使用版本:【编译前的最后一次[➦主源码](https://github.com/qosmio/openwrt-ipq)更新记录】
           Default IP:192.168.2.1 password:none
-          Current version: [The last [➦source code](https://github.com/openwrt/openwrt) update record before compiling]
+          Current version: [The last [➦source code](https://github.com/qosmio/openwrt-ipq) update record before compiling]
           ${{ env.useVersionInfo }}
         artifacts: ${{ env.FIRMWARE }}/*
 
