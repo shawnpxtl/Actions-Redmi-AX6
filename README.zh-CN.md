@@ -1,9 +1,5 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-Redmi-AX6?style=for-the-badge&label=下载)](https://github.com/shawnpxtl/Actions-Redmi-AX6/releases/latest)
 
-# 一些事情
-
-因为前段时间配置了个软路由再加上越来越没精力在这个项目上，打算暂停Redmi AX6的固件更新（可能哪天IPQ807x的NSS加速完全可用的话我会重启呢？不一定），想接管的欢迎Fork
-
 ### ⚠注意：值守式系统更新千万不要操作，且最好在值守式系统更新的配置中把下载地址去掉，否则会影响使用的！！！⚠
 
 # 关于这个仓库

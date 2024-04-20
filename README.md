@@ -2,10 +2,6 @@
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-Redmi-AX6?style=for-the-badge&label=Download)](https://github.com/shawnpxtl/Actions-Redmi-AX6/releases/latest)
 
-# Announcements
-
-Because I configured a soft router some time ago and I have no energy to work on this project, I plan to suspend the firmware update of Redmi AX6 (maybe one day when the NSS acceleration of IPQ807x is fully available, I will restart it? Not necessarily), I want to swallow it. welcome fork
-
 ### ⚠WARNING: Do not operate the on-duty system update, and it is best to remove the download address in the configuration of the on-duty system update, otherwise it will really affect the use! ! ! ⚠
 
 # About this repository
