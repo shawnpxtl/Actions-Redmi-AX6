@@ -29,7 +29,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git --depth=1 package/lu
 # 添加额外软件包
 # git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
 git clone https://github.com/vernesong/OpenClash.git --depth=1 package/OpenClash
-git clone https://github.com/xiaoxiao29/luci-app-adguardhome.git --depth=1 package/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git --depth=1 package/luci-app-adguardhome
 git clone https://github.com/hyperlook/luci-app-openvpn-server --depth=1 package/luci-app-openvpn-server
 git clone https://github.com/jerrykuku/luci-app-argon-config --depth=1 package/luci-app-argon-config
 
