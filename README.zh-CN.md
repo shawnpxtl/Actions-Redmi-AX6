@@ -14,7 +14,8 @@
 ## 特性
 
 * ADGuard Home
-* [OpenClash](https://github.com/vernesong/OpenClash)
+* Chinadns-NG
+* Homeproxy
 * 网络唤醒
 * DDNS
 * 更多功能自行刷入查看(可能会不定期变动)...
