@@ -1,7 +1,5 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-Redmi-AX6?style=for-the-badge&label=下载)](https://github.com/shawnpxtl/Actions-Redmi-AX6/releases/latest)
 
-### ⚠注意：值守式系统更新千万不要操作，且最好在值守式系统更新的配置中把下载地址去掉，否则会影响使用的！！！⚠
-
 # 关于这个仓库
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
