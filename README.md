@@ -2,8 +2,6 @@
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/shawnpxtl/Actions-Redmi-AX6?style=for-the-badge&label=Download)](https://github.com/shawnpxtl/Actions-Redmi-AX6/releases/latest)
 
-### ⚠WARNING: Do not operate the on-duty system update, and it is best to remove the download address in the configuration of the on-duty system update, otherwise it will really affect the use! ! ! ⚠
-
 # About this repository
 
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
