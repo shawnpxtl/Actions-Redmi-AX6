@@ -14,8 +14,7 @@ If you think this project is good, you can star it, I will be very grateful!
 ## Features
 
 * ADGuard Home
-* Chinadns-NG
-* Homeproxy
+* OpenClash
 * Wake-On-LAN
 * DDNS
 * More functions by themselves (may be refreshed from time to time to check)...
