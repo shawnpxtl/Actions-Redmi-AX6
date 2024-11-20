@@ -12,8 +12,7 @@
 ## 特性
 
 * ADGuard Home
-* Chinadns-NG
-* Homeproxy
+* OpenClash
 * 网络唤醒
 * DDNS
 * 更多功能自行刷入查看(可能会不定期变动)...
