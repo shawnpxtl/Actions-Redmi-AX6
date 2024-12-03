@@ -23,7 +23,7 @@ on:
 
 env:
   REPO_URL: https://github.com/qosmio/openwrt-ipq
-  REPO_BRANCH: qualcommax-6.x-nss-wifi
+  REPO_BRANCH: 24.10-nss
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: AX6/openwrt-ipq/AX6-openwrt-ipq.config
   DIY_P1_SH: diy-part1.sh
