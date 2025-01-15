@@ -5,7 +5,6 @@
 # About this repository
 
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
-> [OpenWRT](https://github.com/openwrt/openwrt)/[ImmortalWrt](https://github.com/immortalwrt/immortalwrt) branch from official source<br>
 
 Use Github Actions Automatically compile firmware for Redmi AX6  
 In principle, the firmware of this project is automatically compiled once a week, and you can also fork to modify it by yourself.  
@@ -55,5 +54,5 @@ Do you want to flashing [ImmortalWrt](tutorial/ImmortalWrt.en_US.md) or [OpenWrt
 * [tmate](https://github.com/tmate-io/tmate)
 * [P3TERX](https://github.com/P3TERX)
 * [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
-* [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)
+* [openwrt-ipq](https://github.com/qosmio/openwrt-ipq)
 * and all OpenWRT/ImmortalWrt related contributors
