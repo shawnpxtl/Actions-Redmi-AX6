@@ -3,7 +3,6 @@
 # 关于这个仓库
 
 > 这个仓库基于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
-> [OpenWRT](https://github.com/openwrt/openwrt)/[ImmortalWrt](https://github.com/immortalwrt/immortalwrt)分支来自官方源码<br>
 
 用Github Actions为AX6自动编译固件  
 本项目的固件原则上每周自动编译一次，您也可以fork自行修改~  
@@ -62,5 +61,5 @@ AX6(仅LEDE系固件会出现这种情况，目前已经放弃)：<br>
 * [tmate](https://github.com/tmate-io/tmate)
 * [P3TERX](https://github.com/P3TERX)
 * [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
-* [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)<br>
+* [openwrt-ipq](https://github.com/qosmio/openwrt-ipq)<br>
 * 以及所有跟OpenWRT/ImmortalWrt等相关的贡献者
