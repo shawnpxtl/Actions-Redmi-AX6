@@ -19,7 +19,7 @@ on:
         required: false
         default: 'false'
   schedule:
-    - cron: 00 3 * * 6
+#    - cron: 00 3 * * 6
 
 env:
   REPO_URL: https://github.com/qosmio/openwrt-ipq
